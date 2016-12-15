@@ -1,0 +1,24 @@
+g++ -Wall -g main.cc -o n
+./n
+
+		<-- POLYMORPHIC AND TEMPLATED LINKED LIST -->
+			[type \q to exit]
+
+BaseNode default constructor  - 0x8153008
+TemplateNode constructor with value - 0x8153008
+BaseNode default constructor  - 0x8153018
+TemplateNode constructor with value - 0x8153018
+BaseNode default constructor  - 0x8153040
+TemplateNode constructor with value - 0x8153040
+
+			2
+
+			A
+
+			hey
+TemplateNode destructor  - 0x8153008
+TemplateNode destructor  - 0x8153018
+TemplateNode destructor  - 0x8153040
+BaseNode destructor  - 0x8153040
+BaseNode destructor  - 0x8153018
+BaseNode destructor  - 0x8153008

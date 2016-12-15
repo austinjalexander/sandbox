@@ -1,0 +1,111 @@
+desc: (none)
+cmd: ./n
+time_unit: i
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=1
+#-----------
+time=1654905
+mem_heap_B=4
+mem_heap_extra_B=12
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=2
+#-----------
+time=1660448
+mem_heap_B=18
+mem_heap_extra_B=22
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=3
+#-----------
+time=1675065
+mem_heap_B=33
+mem_heap_extra_B=31
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=4
+#-----------
+time=1676855
+mem_heap_B=33
+mem_heap_extra_B=31
+mem_stacks_B=0
+heap_tree=detailed
+n2: 33 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 29 0x40F42C3: std::string::_Rep::_S_create(unsigned int, unsigned int, std::allocator<char> const&) (in /usr/lib/i386-linux-gnu/libstdc++.so.6.0.17)
+  n1: 15 0x40F562D: std::string::_Rep::_M_clone(std::allocator<char> const&, unsigned int) (in /usr/lib/i386-linux-gnu/libstdc++.so.6.0.17)
+   n1: 15 0x40F575B: std::string::reserve(unsigned int) (in /usr/lib/i386-linux-gnu/libstdc++.so.6.0.17)
+    n1: 15 0x40A68CB: std::basic_istream<char, std::char_traits<char> >& std::operator>><char, std::char_traits<char>, std::allocator<char> >(std::basic_istream<char, std::char_traits<char> >&, std::basic_string<char, std::char_traits<char>, std::allocator<char> >&) (in /usr/lib/i386-linux-gnu/libstdc++.so.6.0.17)
+     n0: 15 0x80491BD: main (main.cc:148)
+  n1: 14 0x40F6568: char* std::string::_S_construct<char const*>(char const*, char const*, std::allocator<char> const&, std::forward_iterator_tag) (in /usr/lib/i386-linux-gnu/libstdc++.so.6.0.17)
+   n1: 14 0x40F6D24: std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(char const*, std::allocator<char> const&) (in /usr/lib/i386-linux-gnu/libstdc++.so.6.0.17)
+    n0: 14 0x4185E44: (below main) (libc-start.c:244)
+ n0: 4 0x804914E: main (main.cc:143)
+#-----------
+snapshot=5
+#-----------
+time=1676855
+mem_heap_B=19
+mem_heap_extra_B=21
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=6
+#-----------
+time=1677266
+mem_heap_B=36
+mem_heap_extra_B=36
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=7
+#-----------
+time=1677398
+mem_heap_B=36
+mem_heap_extra_B=36
+mem_stacks_B=0
+heap_tree=peak
+n2: 36 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 32 0x40F42C3: std::string::_Rep::_S_create(unsigned int, unsigned int, std::allocator<char> const&) (in /usr/lib/i386-linux-gnu/libstdc++.so.6.0.17)
+  n1: 32 0x40F562D: std::string::_Rep::_M_clone(std::allocator<char> const&, unsigned int) (in /usr/lib/i386-linux-gnu/libstdc++.so.6.0.17)
+   n1: 32 0x40F575B: std::string::reserve(unsigned int) (in /usr/lib/i386-linux-gnu/libstdc++.so.6.0.17)
+    n1: 32 0x40A68CB: std::basic_istream<char, std::char_traits<char> >& std::operator>><char, std::char_traits<char>, std::allocator<char> >(std::basic_istream<char, std::char_traits<char> >&, std::basic_string<char, std::char_traits<char>, std::allocator<char> >&) (in /usr/lib/i386-linux-gnu/libstdc++.so.6.0.17)
+     n0: 32 0x80491BD: main (main.cc:148)
+  n1: 0 0x40F6568: char* std::string::_S_construct<char const*>(char const*, char const*, std::allocator<char> const&, std::forward_iterator_tag) (in /usr/lib/i386-linux-gnu/libstdc++.so.6.0.17)
+   n1: 0 0x40F6D24: std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(char const*, std::allocator<char> const&) (in /usr/lib/i386-linux-gnu/libstdc++.so.6.0.17)
+    n0: 0 0x4185E44: (below main) (libc-start.c:244)
+ n0: 4 0x804914E: main (main.cc:143)
+#-----------
+snapshot=8
+#-----------
+time=1677398
+mem_heap_B=21
+mem_heap_extra_B=27
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=9
+#-----------
+time=1682959
+mem_heap_B=17
+mem_heap_extra_B=15
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=10
+#-----------
+time=1684155
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
