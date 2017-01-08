@@ -1,0 +1,1 @@
+/Users/excalibur/py/odsc/caffe/hdf5_classification/data/test.h5

@@ -1,0 +1,2397 @@
+{
+  "attributes" : {
+    "relation" : {
+      "changeset" : [
+        "26127",
+        "727013",
+        "9980273",
+        "20567148"
+      ],
+      "id" : [
+        "126985",
+        "1104191",
+        "37967"
+      ],
+      "timestamp" : [
+        "2014-02-14T21:59:51Z"
+      ],
+      "uid" : [
+        "81285",
+        "326503",
+        "1034",
+        "1845440"
+      ],
+      "user" : [
+        "spaceeinstein",
+        "jwass",
+        "GeoStudent",
+        "jremillard-massgis",
+        "brianegge",
+        "wambag",
+        "fx99",
+        "Greater Newburyport MapJam",
+        "Patrick Greenwell",
+        "Jano John Akim Franke",
+        "hilarys10188",
+        "maxerickson",
+        "zenhack",
+        "kyrrigle",
+        "YamaOfParadise",
+        "NE2",
+        "nfgusedautoparts",
+        "Mike Linksvayer"
+      ],
+      "version" : [
+        "18",
+        "3",
+        "100"
+      ]
+    }
+  },
+  "children" : {
+    "member" : {
+      "ref" : [
+        "296172",
+        "8615818",
+        "61317423",
+        "1039904367",
+        "115591269",
+        "61315"
+      ],
+      "role" : [
+        "",
+        "bridge",
+        "via",
+        "associated",
+        "house",
+        "address",
+        "outer",
+        "street",
+        "platform_entry_only",
+        "stop_forward",
+        "from",
+        "platform",
+        "ways",
+        "west",
+        "support",
+        "label",
+        "to",
+        "station",
+        "inner",
+        "under",
+        "forward",
+        "east",
+        "across",
+        "stop_entry_only",
+        "stop_backward",
+        "entrance",
+        "north",
+        "admin_centre",
+        "inbound",
+        "end",
+        "stop",
+        "part",
+        "location_hint",
+        "inbound_platform",
+        "outbound",
+        "pier",
+        "sidewalk",
+        "building",
+        "outbound_platform",
+        "outline",
+        "subarea",
+        "abutment",
+        "tomb",
+        "backward",
+        "route",
+        "south"
+      ],
+      "type" : [
+        "node",
+        "relation",
+        "way"
+      ]
+    },
+    "tag" : {
+      "FIXME" : [
+        "Was this originally continuous?",
+        "verify Vassal Lane",
+        "detatch from highways",
+        "continue",
+        "no left turn allowed onto Parkland",
+        "yes"
+      ],
+      "ISO3166-1" : [
+        "US"
+      ],
+      "ISO3166-1:alpha2" : [
+        "US"
+      ],
+      "ISO3166-1:alpha3" : [
+        "USA"
+      ],
+      "ISO3166-1:numeric" : [
+        "840"
+      ],
+      "ISO3166-2" : [
+        "US-MA"
+      ],
+      "abandoned" : [
+        "no"
+      ],
+      "access" : [
+        "customer",
+        "customers",
+        "no",
+        "restricted",
+        "destination",
+        "private",
+        "yes",
+        "public"
+      ],
+      "addr:city" : [
+        "Boston",
+        "West Roxbury",
+        "Chestnut Hill",
+        "Newton Centre"
+      ],
+      "addr:country" : [
+        "US"
+      ],
+      "addr:county" : [
+        "Hampden County",
+        "Norfolk County"
+      ],
+      "addr:housenumber" : [
+        "465",
+        "1",
+        "95"
+      ],
+      "addr:postcode" : [
+        "02135"
+      ],
+      "addr:state" : [
+        "MA",
+        "Massachusetts"
+      ],
+      "addr:street" : [
+        "Memorial Drive",
+        "Boylston Street",
+        "Dolphin Road",
+        "Dalton Street",
+        "Baker Street",
+        "Boston Medical Center Place",
+        "Beechcroft Street",
+        "Huntington Avenue",
+        "Saint Marys Street"
+      ],
+      "admin_level" : [
+        "4"
+      ],
+      "aeroway" : [
+        "terminal"
+      ],
+      "alt_name" : [
+        "W4"
+      ],
+      "alt_name:vi" : [
+        "Hoa K\u00ec; M\u1ef9; M\u0129"
+      ],
+      "amenity" : [
+        "university",
+        "hospital",
+        "college",
+        "school",
+        "parking"
+      ],
+      "area" : [
+        "yes"
+      ],
+      "attribution" : [
+        "USGS 2001 County Boundary"
+      ],
+      "avg_fph" : [
+        "usd 4"
+      ],
+      "blaze" : [
+        "blue"
+      ],
+      "border_type" : [
+        "county",
+        "national"
+      ],
+      "born" : [
+        "1767-07-11",
+        "1735-10-30"
+      ],
+      "boundary" : [
+        "neighborhood",
+        "administrative"
+      ],
+      "boundary_type" : [
+        "county"
+      ],
+      "bridge:structure" : [
+        "beam"
+      ],
+      "building" : [
+        "school",
+        "apartments",
+        "house",
+        "university",
+        "garage",
+        "yes"
+      ],
+      "building:colour" : [
+        "#EEEEDD",
+        "#EEEEEE",
+        "#EEEECC",
+        "#DDDD99"
+      ],
+      "building:levels" : [
+        "14",
+        "6"
+      ],
+      "building:material" : [
+        "concrete",
+        "brick"
+      ],
+      "building:min_level" : [
+        "11"
+      ],
+      "building:part" : [
+        "yes",
+        "roof"
+      ],
+      "campusbuilding" : [
+        "yes"
+      ],
+      "capacity" : [
+        "37",
+        "143"
+      ],
+      "colour" : [
+        "gray",
+        "#005480",
+        "#0000FF",
+        "#7B388C",
+        "#FF8000",
+        "#FF0000",
+        "#78BC42"
+      ],
+      "contact" : [
+        "Doug Mink (dmink@massbike.org)"
+      ],
+      "covered" : [
+        "no"
+      ],
+      "created_by" : [
+        "Potlatch 0.10f"
+      ],
+      "cycle_network" : [
+        "US:US"
+      ],
+      "day_off" : [
+        "Friday"
+      ],
+      "day_on" : [
+        "Monday"
+      ],
+      "description" : [
+        "The second President of the United States",
+        "La Grange Street Overpass",
+        "Belgrade Avenue overpass over Needham Branch",
+        "Charles River Bridge",
+        "The sixth president of the United States",
+        "Lord and Lady's Way to Belgrade Avenue",
+        "Strip Mall"
+      ],
+      "destination" : [
+        "Stoughton"
+      ],
+      "died" : [
+        "1848-02-23",
+        "1826-07-04"
+      ],
+      "ele" : [
+        "5",
+        "79"
+      ],
+      "except" : [
+        "bicycle"
+      ],
+      "fee" : [
+        "yes",
+        "no"
+      ],
+      "fixme" : [
+        "some stations and other direction missing"
+      ],
+      "flag" : [
+        "http://upload.wikimedia.org/wikipedia/commons/a/a4/Flag_of_the_United_States.svg"
+      ],
+      "foot" : [
+        "yes"
+      ],
+      "from" : [
+        "Bowdoin",
+        "Forest Hills, Boston",
+        "Boston South Station",
+        "Boston",
+        "Watertown Yard",
+        "West Roxbury",
+        "Wonderland",
+        "Ashmont",
+        "Oak Grove",
+        "Alewife"
+      ],
+      "gnis:county_id" : [
+        "017"
+      ],
+      "gnis:county_name" : [
+        "Middlesex",
+        "Suffolk"
+      ],
+      "gnis:created" : [
+        "01/15/2003",
+        "08/27/2002",
+        "02/24/1974"
+      ],
+      "gnis:feature_id" : [
+        "599940",
+        "1971565"
+      ],
+      "gnis:import_uuid" : [
+        "57871b70-0100-4405-bb30-88b2e001a944"
+      ],
+      "gnis:reviewed" : [
+        "no"
+      ],
+      "gnis:state_id" : [
+        "25"
+      ],
+      "grades" : [
+        "7,8,9,10,11,12"
+      ],
+      "hazmat" : [
+        "designated"
+      ],
+      "height" : [
+        "155ft"
+      ],
+      "highway" : [
+        "pedestrian"
+      ],
+      "historic" : [
+        "yes",
+        "no"
+      ],
+      "historical" : [
+        "yes"
+      ],
+      "hour_off" : [
+        "09:00"
+      ],
+      "hour_on" : [
+        "06:00"
+      ],
+      "image" : [
+        "File:US Navy 031029-N-6236G-001 A painting of President John Adams (1735-1826), 2nd president of the United States, by Asher B. Durand (1767-1845)-crop.jpg",
+        "https://commons.wikimedia.org/wiki/File:Mfa_boston_af.jpg"
+      ],
+      "is_in" : [
+        "Massachusetts,Mass.,MA,USA",
+        "Boston; MA; USA"
+      ],
+      "is_in:state" : [
+        "MA",
+        "WA;ID;MT;WY;SD;MN;WI;IL;IN;OH;PA;NY;MA"
+      ],
+      "landuse" : [
+        "industrial",
+        "reservoir",
+        "retail",
+        "commercial",
+        "conservation",
+        "recreation_ground"
+      ],
+      "lanes" : [
+        "1",
+        "1;2",
+        "2;1"
+      ],
+      "lanes:extra" : [
+        "1",
+        "-1"
+      ],
+      "layer" : [
+        "1"
+      ],
+      "leisure" : [
+        "nature_reserve",
+        "track",
+        "park",
+        "playground",
+        "pitch",
+        "recreation_ground"
+      ],
+      "length" : [
+        "364.4 smoots"
+      ],
+      "lengths:left" : [
+        "20.0"
+      ],
+      "lengths:right" : [
+        "20.0"
+      ],
+      "light_rail" : [
+        "no"
+      ],
+      "lit" : [
+        "yes"
+      ],
+      "manager" : [
+        "MDC"
+      ],
+      "massgis:ARTICLE97" : [
+        "1"
+      ],
+      "massgis:ASSESS_ACR" : [
+        "468.00000000",
+        "184.96000000",
+        "14.00000000",
+        "124.00000000",
+        "14.63000000",
+        "0.25000000",
+        "138.60000000",
+        "14.80000000",
+        "0.00000000",
+        "11.25000000",
+        "15.37000000",
+        "265.00000000",
+        "30.00000000"
+      ],
+      "massgis:ASSESS_BLK" : [
+        "20"
+      ],
+      "massgis:ASSESS_LOT" : [
+        "1",
+        "05207"
+      ],
+      "massgis:ASSESS_MAP" : [
+        "77",
+        "3"
+      ],
+      "massgis:ASSESS_SUB" : [
+        "000"
+      ],
+      "massgis:ATT_DATE" : [
+        "2005/05/11",
+        "1998/06/05",
+        "1994/12/01",
+        "1994/11/03",
+        "1998/09/29",
+        "1994/11/17",
+        "1994/11/18",
+        "2008/12/15",
+        "1995/04/13",
+        "1994/07/13",
+        "1994/06/07",
+        "1994/07/21",
+        "1994/06/28",
+        "1997/07/16",
+        "1996/04/28",
+        "1996/03/25",
+        "1996/03/04",
+        "1996/03/05"
+      ],
+      "massgis:BASE_MAP" : [
+        "131-9"
+      ],
+      "massgis:BOND_ACCT" : [
+        "2300-8840"
+      ],
+      "massgis:CAL_DATE_R" : [
+        "1/1/1989",
+        "1/1/1941"
+      ],
+      "massgis:COMMENTS" : [
+        "FROM CZM ACCESS GUIDE",
+        "Sewage treatment plant with some recreation paths",
+        "TOWN, CPS",
+        "HORTICTURAL CENTER",
+        "INCLUDES REPUCCI PLAYING FIELDS",
+        "PART OF DEER IS.PROJECT;WILL BE MDC PARK;PROJ_ID=24989001"
+      ],
+      "massgis:DCAM_ID" : [
+        "0"
+      ],
+      "massgis:DEED_ACRES" : [
+        "2.77000000",
+        "0.00000000"
+      ],
+      "massgis:EOEAINVOLV" : [
+        "1"
+      ],
+      "massgis:FEESYM" : [
+        "F",
+        "DCRU",
+        "M",
+        "P",
+        "DFG",
+        "COM"
+      ],
+      "massgis:FEE_OWNER" : [
+        "HARVARD PRES AND FELLOWS",
+        "DCR - Division of Urban Parks and Recreation",
+        "City of Boston",
+        "Town of Hingham",
+        "City of Quincy",
+        "City of Weymouth",
+        "National Park Service",
+        "Department of Fish and Game",
+        "Town of Winthrop",
+        "City of Revere",
+        "Harvard University",
+        "Commonwealth of Massachusetts",
+        "Massachusetts Bay Transit Authority"
+      ],
+      "massgis:FY_FUNDING" : [
+        "0",
+        "1972"
+      ],
+      "massgis:GRANTPROG1" : [
+        "DCS-LWCF"
+      ],
+      "massgis:GRANTTYPE1" : [
+        "F"
+      ],
+      "massgis:IT_VALC" : [
+        "TF",
+        "BE",
+        "M",
+        "SM"
+      ],
+      "massgis:IT_VALDESC" : [
+        "TIDAL FLAT",
+        "COASTAL BEACH",
+        "SALT MARSH",
+        "SHALLOW MARSH MEADOW OR FEN"
+      ],
+      "massgis:LEV_PROT" : [
+        "P",
+        "L"
+      ],
+      "massgis:MANAGER" : [
+        "City of Quincy Parks and Recreation Department",
+        "City of Quincy Conservation Commission",
+        "City of Weymouth Parks and Recreation Department",
+        "Massachusetts Water Resources Authority",
+        "City of Weymouth Conservation Commission",
+        "City of Boston Parks Department",
+        "City of Revere School Department",
+        "DCR - Division of Urban Parks and Recreation",
+        "Town of Hingham Recreation Commission",
+        "East Boston Yacht Club"
+      ],
+      "massgis:MANAGR_ABR" : [
+        "MWRA",
+        "M243PR",
+        "M248SD",
+        "DCRU",
+        "M336CC",
+        "M336PR",
+        "M131RC",
+        "M243CC",
+        "M035PD"
+      ],
+      "massgis:MANAGR_TYP" : [
+        "P",
+        "S",
+        "M"
+      ],
+      "massgis:OBJECTID" : [
+        "27651",
+        "108837"
+      ],
+      "massgis:OS_DEED_BO" : [
+        "0",
+        "3780"
+      ],
+      "massgis:OS_DEED_PA" : [
+        "0",
+        "230"
+      ],
+      "massgis:OS_ID" : [
+        "336-3210",
+        "346-207",
+        "35-41",
+        "248-74",
+        "35-44",
+        "35-282",
+        "35-47",
+        "35-3311",
+        "243-449",
+        "35-448",
+        "35-112",
+        "35-80",
+        "35-523",
+        "274-606",
+        "131-799",
+        "274-7",
+        "336-3205",
+        "131-1038",
+        "35-392",
+        "131-1017",
+        "243-354",
+        "243-357",
+        "243-13",
+        "35-3567",
+        "35-438",
+        "35-35",
+        "35-435",
+        "35-10",
+        "131-973",
+        "243-3300",
+        "35-3300"
+      ],
+      "massgis:OWNER_ABRV" : [
+        "M131",
+        "M346",
+        "DCRU",
+        "HU",
+        "M035",
+        "MBTA",
+        "M243",
+        "DFG",
+        "COM",
+        "M248",
+        "NPS",
+        "M336"
+      ],
+      "massgis:OWNER_TYPE" : [
+        "P",
+        "S",
+        "M",
+        "F"
+      ],
+      "massgis:PALIS_ID" : [
+        "0"
+      ],
+      "massgis:POLY_CODE" : [
+        "2"
+      ],
+      "massgis:POLY_ID" : [
+        "80",
+        "7",
+        "3300",
+        "112"
+      ],
+      "massgis:PRIM_PURP" : [
+        "B",
+        "R",
+        "C",
+        "O"
+      ],
+      "massgis:PROJ_ID1" : [
+        "DFW0126",
+        "DCS-LW371",
+        "24189401"
+      ],
+      "massgis:PUB_ACCESS" : [
+        "Y",
+        "X",
+        "L",
+        "N"
+      ],
+      "massgis:SITE_NAME" : [
+        "STODDERS NECK",
+        "SOUTHWEST CORRIDOR",
+        "OLD HARBOR RESERVATION",
+        "VICTORY ROAD PARK",
+        "CONSTITUTION BEACH",
+        "WALTER STREET TRACT",
+        "VIETNAM WAR MEMORIAL",
+        "FORT BANKS PLAYGROUND",
+        "Deer Island",
+        "BELLE ISLE MARSH RESERVATION",
+        "BARE COVE PARK",
+        "NUT ISLAND",
+        "BROAD MEADOW",
+        "PAWSEY BEACH",
+        "MARINE PARK",
+        "NEPONSET RIVER RESERVATION",
+        "TENEAN BEACH",
+        "CADMAN CONS AREA",
+        "ROCK ISLAND COVE SALT MARSH",
+        "MYSTIC RIVER RESERVATION",
+        "MALIBU BEACH",
+        "WEYMOUTH BACK RIVER ACCESS",
+        "FREDERICK PARK",
+        "ARNOLD ARBORETUM",
+        "ROCK ISLAND COVE MARSH",
+        "GREAT ESKER PARK"
+      ],
+      "massgis:SOURCE" : [
+        "DEP-WCP"
+      ],
+      "massgis:SOURCE_MAP" : [
+        "1",
+        "ORTHO",
+        "CZM"
+      ],
+      "massgis:SOURCE_SCA" : [
+        "12000"
+      ],
+      "massgis:SOURCE_TYP" : [
+        "X",
+        "OS"
+      ],
+      "massgis:TOWN_ID" : [
+        "243",
+        "35"
+      ],
+      "massgis:WETCODE" : [
+        "8",
+        "13"
+      ],
+      "massgis:school_id" : [
+        "00350718"
+      ],
+      "media:commons" : [
+        "http://commons.wikimedia.org/wiki/Category:MBTA_Blue_Line",
+        "http://commons.wikimedia.org/wiki/Category:MBTA_Orange_Line",
+        "http://commons.wikimedia.org/wiki/Category:MBTA_Green_Line"
+      ],
+      "name" : [
+        "Hanson Avenue",
+        "Alewife Station",
+        "East Boston",
+        "Wood Island",
+        "Lewis Street",
+        "Boston Medical Center",
+        "Windsor Street",
+        "Kingston/Plymouth Line (Plymouth Branch)",
+        "Boston University Bridge",
+        "Charlestown",
+        "Alewife Brook banks",
+        "Harborwalk Charlestown",
+        "Claire Saltonstall Bikeway",
+        "Central Square, Cambridge - Broadway Station via Boston Medical Center",
+        "Kirkland House",
+        "Medford",
+        "Roslindale",
+        "Lincoln Parkway (two-way)",
+        "Broadway Westbound, 45-91",
+        "Franklin Line (Limited)",
+        "MA 2",
+        "MA 3",
+        "Newton Street",
+        "Boston South Station",
+        "Hingham",
+        "State",
+        "Belgrade Avenue",
+        "Red Line",
+        "United States of America",
+        "Vinal Avenue",
+        "Watertown Yard",
+        "Essex County",
+        "Suffolk Downs",
+        "Lincoln Avenue",
+        "Greenbush Line",
+        "Washington Street (285 and below)",
+        "East Coast Greenway (super)",
+        "Revere",
+        "245",
+        "I 90 (MA west)",
+        "Winthrop",
+        "Harold Street",
+        "Terminal B",
+        "1 (Massachusetts)",
+        "Brigham and Women's Hospital",
+        "Lincoln Parkway (one-way)",
+        "John W. Weeks Footbridge",
+        "Quincy",
+        "Mystic River Reservation",
+        "Silver Line",
+        "Blue Line",
+        "Providence/Stroughton Line (Stroughton Branch)",
+        "Dickinson Street",
+        "North End",
+        "Needham",
+        "Roxbury",
+        "Cleveland Circle - Sullivan Square",
+        "Somerville Avenue (391 and above)",
+        "Grand Junction Branch",
+        "McCormick Hall",
+        "Village Street",
+        "Joseph Street",
+        "Wentworth Institute of Technology",
+        "Marion Street (one-way)",
+        "Government Center Garage",
+        "Lincoln Street",
+        "Hanson Street",
+        "Hodgdon Place",
+        "Summer Street (odd up to 5)",
+        "Downeaster",
+        "West Roxbury",
+        "Newbury College",
+        "Pennsylvania Avenue",
+        "Bowdoin",
+        "Indiana Avenue",
+        "Bellevue Commuter Rail Parking",
+        "Charles River - Minuteman Path",
+        "Alberta Street",
+        "Museum of Fine Arts",
+        "Central Parking",
+        "Benedict Avenue",
+        "Giles Park",
+        "Dedham Water Trail",
+        "Victory Road Park",
+        "Green Line (E)",
+        "Lord and Lady's Way",
+        "Marine Park",
+        "Arlington",
+        "I 95 (MA)",
+        "Sullivan Sta. - Ruggles Sta. via Kendall/MIT",
+        "Walter Street Tract",
+        "Bowdoin Street (first block)",
+        "Rock Island Cove Salt Marsh",
+        "Brookline",
+        "Myrtle Street",
+        "Kilby Street",
+        "Malibu Beach",
+        "Dedham",
+        "Mount Vernon Street",
+        "Benedict Street",
+        "Concord Square (north)",
+        "Newton",
+        "Waldo Avenue",
+        "I 90 (MA east)",
+        "Ashmont\u2013Mattapan High Speed Line",
+        "Hyde Park",
+        "Colbert Street",
+        "Lowell Line",
+        "Arnold Arboretum",
+        "West Quincy Branch",
+        "US 1 (MA)",
+        "Dorchester",
+        "Mount Pleasant Street",
+        "Everett",
+        "MA 28",
+        "Tenean Beach",
+        "Pinckney Street",
+        "Concord Avenue (80 and up)",
+        "Leon Street",
+        "Buckingham Street",
+        "Beacon Street (Somerville)",
+        "Kingston/Plymouth Line (Kingston Branch)",
+        "Providence/Stoughton Line",
+        "Watertown",
+        "Fort Banks Playground",
+        "Midland Division",
+        "Parker Street",
+        "Cambridge",
+        "Dane Avenue",
+        "Clark Street",
+        "Boston",
+        "Airport",
+        "Providence Route",
+        "Orient Heights",
+        "Marion Street (two-way)",
+        "Pearl Street",
+        "Alewife Brook Reservation",
+        "Minuteman Commuter Bikeway",
+        "CapeFlyer",
+        "Rock Island Cove Marsh",
+        "Skehan Street (32 and above)",
+        "Framingham/Worcester Line",
+        "Longfellow Bridge",
+        "Baxter State Park",
+        "South End",
+        "Adrian Street",
+        "Hillside Park",
+        "Constitution Beach",
+        "Mission Hill",
+        "West End",
+        "Newburyport/Rockport Line",
+        "Concord Avenue (65-79)",
+        "Somerville Avenue (300 to 389)",
+        "Plymouth County",
+        "Readville & Dedham Branch",
+        "Orient Heights Beach",
+        "West Roxbury Post Office",
+        "Elliot Street",
+        "Jamaica Plain",
+        "Allston / Brighton",
+        "Parkdale Street",
+        "Somerville Community Path",
+        "Minuteman Bikeway",
+        "Fairmount Line",
+        "Great Esker Park",
+        "Emerson Street",
+        "Wyatt Street",
+        "Government Center/Faneuil Hall",
+        "Walnut Street (up to 36)",
+        "Vietnam War Memorial",
+        "Arlington Street",
+        "Boston HarborWalk",
+        "Nut Island",
+        "Dane Street (south of the tracks)",
+        "Forest Hills Sta. - Ruggles or Dudley Sta. via Washington St",
+        "Kingston Line",
+        "MBTA Commuter Rail",
+        "Government Center",
+        "Franklin Line",
+        "Perkins Place",
+        "Broadway Place",
+        "Mary O\"Malley Waterfront Park",
+        "Norfolk County",
+        "McArthur",
+        "Webster Street",
+        "Amtrak Downeaster",
+        "Remick Court",
+        "Alewife Linear Park",
+        "Aldersey Street",
+        "Beachmont",
+        "Massachusetts College of Pharmacy and Health Science",
+        "Highland",
+        "Hull",
+        "Green Line (D)",
+        "Allen Street",
+        "Deer Island Park",
+        "Newton Highlands Branch",
+        "Broad Meadow",
+        "Weymouth",
+        "Perry Street",
+        "Washington Street (290 and above)",
+        "Nevada Avenue",
+        "Green Line (C)",
+        "Properzi Way",
+        "Skehan Street (18 and below)",
+        "John Ward Elementary School",
+        "Needham Line",
+        "Fitchburg/South Acton Line",
+        "Concord Square",
+        "Amtrak - Lake Shore Limited",
+        "Durham Street",
+        "McDermott Court",
+        "Line Street",
+        "Harvard University",
+        "Perkins Street (63-85)",
+        "Maine Avenue",
+        "Providence/Stoughton Line (Providence Branch)",
+        "Lake Street",
+        "Hawkins Street",
+        "Arnold Court",
+        "Plymouth Division",
+        "Neponset River Reservation",
+        "Needham Cutoff",
+        "Boston and Albany Railroad",
+        "Garfield James A. Elementary School",
+        "I 93 (MA southbound)",
+        "Olive Square",
+        "Caldwell Avenue",
+        "Harvard Medical School",
+        "Springfield Street (Somerville)",
+        "Nahant",
+        "Wesley Park",
+        "Elgin Street",
+        "Blue Hills Reservation",
+        "I 93 (MA northbound)",
+        "Amtrak - Acela Express",
+        "Everett Street",
+        "Draw Seven Park",
+        "Mystic River banks from Earhart Dam to Tobin Bridge",
+        "Braintree",
+        "Hubway Stations",
+        "Cardinal Medeiros Avenue",
+        "Cutter Street",
+        "Somerville",
+        "Northeast Corridor",
+        "Hathorn Street",
+        "Milk Place",
+        "Kingston/Plymouth Line",
+        "Harvard Bridge",
+        "Fremont Avenue (first block)",
+        "Glen Street",
+        "Alewife Station Parking Garage",
+        "Prospect Street",
+        "Commonwealth Ave / Carlton St. Restriction",
+        "Smith Avenue",
+        "Alumni Stadium",
+        "Terminal E",
+        "Austin Street",
+        "Bowdoin Street (last block)",
+        "Frederick Park",
+        "George Street",
+        "Park Street",
+        "Sheraton",
+        "Union Square",
+        "Hilton",
+        "Haverhill Line",
+        "Berklee College of Music",
+        "Concord Avenue (61-63)",
+        "Maverick",
+        "Bellevue",
+        "Taunton Street",
+        "Roslindale Village Commuter Rail Parking",
+        "Mattapan",
+        "US 3 (MA)",
+        "Aquarium",
+        "Waverly Street",
+        "Broadway Eastbound, 2-100",
+        "McCraw Street",
+        "Chinatown",
+        "Calvin Street",
+        "Brigham & Women's Ambulatory Care Center",
+        "US 20 (MA)",
+        "Cooney Street",
+        "O'Neill Library",
+        "Forest Hills & Attleboro Branch",
+        "Westwood",
+        "Middlesex County",
+        "Bay Village",
+        "Belmont",
+        "Dane Street (north of the tracks)",
+        "Middleborough/Lakeville Line",
+        "Franklin Street",
+        "Cadman Conservation Area",
+        "Blue Hills Reservoir",
+        "Washington Street (east of Union)",
+        "Green Line (B)",
+        "Beacon Place",
+        "Church Street (19 and below)",
+        "Florence Street",
+        "BU Bridge to Commonwealth Ave (No Left Turn)",
+        "Financial District/Downtown",
+        "Massachusetts",
+        "Back Bay",
+        "Lowell House",
+        "Riverway",
+        "Wheeler Street",
+        "Bare Cove Park",
+        "Dr. Paul Dudley White Path",
+        "Beacon Hill",
+        "John Adams",
+        "Ashby Campus Center",
+        "Ashmont Sta. - Ruggles Sta. via Washington St.",
+        "John F Gilmore Bridge",
+        "Belle Isle Marsh Reservation",
+        "Maine Terrace",
+        "Lake Shore Limited",
+        "Carlton Street",
+        "Weymouth Back River Access",
+        "Central Square, Cambridge - B.U. Medical Center/Boston Medical Center via M.I.T.",
+        "One Kendall Square",
+        "Somerville Avenue (298 and below)",
+        "Magnus Avenue",
+        "Bow Street",
+        "Orange Line",
+        "John Quincy Adams",
+        "Wyatt Circle",
+        "Boston Harbor Islands St Park",
+        "Wheelock College",
+        "Hammond Street",
+        "Leland Street",
+        "Dimick Street",
+        "Chelsea",
+        "Rose Street",
+        "Webster Avenue",
+        "Mystic View Road",
+        "Old Harbor Reservation",
+        "Northeastern University",
+        "Shawmut & Milton Branch",
+        "Mystic Power Station",
+        "Stodders Neck",
+        "Highland Commuter Rail Parking",
+        "Lincoln Place",
+        "East Coast Greenway (RI/MA)",
+        "Centre Street",
+        "Fenway / Kenmore",
+        "Kingman Road",
+        "Suffolk County",
+        "Broadway Station - Central Square, Cambridge via Boston Medical Center",
+        "Freedom Trail",
+        "Milton",
+        "Needham Branch (MBTA)",
+        "Fremont Avenue (last block)",
+        "McCurdy Track",
+        "Beth Israel Deaconess Medical Center",
+        "I 90 (super)",
+        "Erie Street",
+        "Skyline Trail",
+        "Pawsey Beach",
+        "South Boston",
+        "Roslindale Village",
+        "Massachusetts College of Art and Design",
+        "Harvard/Holyoke Gate - Dudley Station",
+        "Catholic Memorial"
+      ],
+      "name:ab" : [
+        "\u0410\u043c\u0435\u0440\u0438\u043a\u0430 \u0415\u0438\u0434\u0443 \u0410\u0448\u0442\u0430\u0442\u049b\u04d9\u0430"
+      ],
+      "name:ace" : [
+        "Amirika Car\u00e9kat"
+      ],
+      "name:af" : [
+        "Verenigde State van Amerika"
+      ],
+      "name:als" : [
+        "Vereinigte Schtaate vo Amerika"
+      ],
+      "name:am" : [
+        "\u12e8\u1270\u1263\u1260\u1229\u1275 \u12e8\u12a0\u121c\u122a\u12ab \u130d\u12db\u1276\u127d"
+      ],
+      "name:an" : [
+        "Estatos Unitos d'America"
+      ],
+      "name:ang" : [
+        "Ge\u0101nl\u01e3tan R\u012bcu American"
+      ],
+      "name:ar" : [
+        "\u062c\u0627\u0645\u0639\u0629 \u0647\u0627\u0631\u0641\u0627\u0631\u062f",
+        "\u0645\u0627\u0633\u0627\u062a\u0634\u0648\u0633\u062a\u0633",
+        "\u0627\u0644\u0648\u0644\u0627\u064a\u0627\u062a \u0627\u0644\u0645\u062a\u0651\u062d\u062f\u0629 \u0627\u0644\u0623\u0645\u0631\u064a\u0643\u064a\u0651\u0629"
+      ],
+      "name:arc" : [
+        "\u0710\u072c\u072a\u0718\u072c\u0710 \u0721\u071a\u071d\u0715\u0710 \u0715\u0710\u0721\u072a\u071d\u071f\u0710"
+      ],
+      "name:arz" : [
+        "\u0627\u0645\u0631\u064a\u0643\u0627"
+      ],
+      "name:as" : [
+        "\u09ae\u09be\u09f0\u09cd\u0995\u09bf\u09a8 \u09af\u09c1\u0995\u09cd\u09a4\u09f0\u09be\u09b7\u09cd\u099f\u09cd\u09f0"
+      ],
+      "name:ast" : [
+        "Estaos Xun\u00edos d'Am\u00e9rica"
+      ],
+      "name:av" : [
+        "\u0410\u043c\u0435\u0440\u0438\u043a\u0430\u043b\u044a\u0443\u043b \u0426\u043e\u043b\u044a\u0430\u0440\u0430\u043b \u0428\u0442\u0430\u0442\u0430\u043b"
+      ],
+      "name:ay" : [
+        "Istadus Unidus"
+      ],
+      "name:az" : [
+        "Massa\u00e7usets",
+        "Harvard Universiteti",
+        "Amerika Birl\u0259\u015fmi\u015f \u015etatlar\u0131"
+      ],
+      "name:ba" : [
+        "\u0410\u043c\u0435\u0440\u0438\u043a\u0430 \u04a0\u0443\u0448\u043c\u0430 \u0428\u0442\u0430\u0442\u0442\u0430\u0440\u044b",
+        "\u0413\u0430\u0440\u0432\u0430\u0440\u0434 \u0443\u043d\u0438\u0432\u0435\u0440\u0441\u0438\u0442\u0435\u0442\u044b"
+      ],
+      "name:bar" : [
+        "Vaeinigtn Staatn vo Amerika"
+      ],
+      "name:bat-smg" : [
+        "JAV"
+      ],
+      "name:bcl" : [
+        "Estados Unidos"
+      ],
+      "name:be" : [
+        "\u0417\u043b\u0443\u0447\u0430\u043d\u044b\u044f \u0428\u0442\u0430\u0442\u044b \u0410\u043c\u0435\u0440\u044b\u043a\u0456",
+        "\u0413\u0430\u0440\u0432\u0430\u0440\u0434\u0441\u043a\u0456 \u045e\u043d\u0456\u0432\u0435\u0440\u0441\u0456\u0442\u044d\u0442"
+      ],
+      "name:be-x-old" : [
+        "\u0417\u043b\u0443\u0447\u0430\u043d\u044b\u044f \u0428\u0442\u0430\u0442\u044b \u0410\u043c\u044d\u0440\u044b\u043a\u0456"
+      ],
+      "name:bg" : [
+        "\u0425\u0430\u0440\u0432\u0430\u0440\u0434\u0441\u043a\u0438 \u0443\u043d\u0438\u0432\u0435\u0440\u0441\u0438\u0442\u0435\u0442",
+        "\u041c\u0430\u0441\u0430\u0447\u0443\u0437\u0435\u0442\u0441",
+        "\u0421\u044a\u0435\u0434\u0438\u043d\u0435\u043d\u0438 \u0430\u043c\u0435\u0440\u0438\u043a\u0430\u043d\u0441\u043a\u0438 \u0449\u0430\u0442\u0438"
+      ],
+      "name:bi" : [
+        "Yunaeted Stet blong Amerika"
+      ],
+      "name:bm" : [
+        "Amerika ka Kelenyalen Jamanaw"
+      ],
+      "name:bn" : [
+        "\u09ae\u09be\u09b0\u09cd\u0995\u09bf\u09a8 \u09af\u09c1\u0995\u09cd\u09a4\u09b0\u09be\u09b7\u09cd\u099f\u09cd\u09b0",
+        "\u09b9\u09be\u09b0\u09cd\u09ad\u09be\u09b0\u09cd\u09a1 \u09ac\u09bf\u09b6\u09cd\u09ac\u09ac\u09bf\u09a6\u09cd\u09af\u09be\u09b2\u09af\u09bc"
+      ],
+      "name:bo" : [
+        "\u0f68\u0f0b\u0f58\u0f7a\u0f0b\u0f62\u0f72\u0f0b\u0f41\u0f0b\u0f62\u0f92\u0fb1\u0f63\u0f0b\u0f55\u0fb2\u0f53\u0f0b\u0f58\u0f49\u0f58\u0f0b\u0f60\u0f56\u0fb2\u0f7a\u0f63\u0f0b\u0f62\u0f92\u0fb1\u0f63\u0f0b\u0f41\u0f56\u0f0d"
+      ],
+      "name:bpy" : [
+        "\u09a4\u09bf\u09b2\u09aa\u09be\u09b0\u09be\u09b7\u09cd\u099f\u09cd\u09b0"
+      ],
+      "name:br" : [
+        "Skol-veur Harvard",
+        "Stado\u00f9-Unanet Amerika"
+      ],
+      "name:bs" : [
+        "Sjedinjene Ameri\u010dke Dr\u017eave"
+      ],
+      "name:bxr" : [
+        "\u0410\u043c\u0435\u0440\u0438\u043a\u0430\u043d \u041d\u044d\u0433\u044d\u0434\u044d\u04bb\u044d\u043d \u0423\u043b\u0430\u0441"
+      ],
+      "name:ca" : [
+        "Universitat de Harvard",
+        "Estats Units d'Am\u00e8rica"
+      ],
+      "name:cbk-zam" : [
+        "Estados Unidos de America"
+      ],
+      "name:cdo" : [
+        "M\u012b-l\u00e9-gi\u0115ng H\u0103k-c\u00e9\u0324\u1e73ng-gu\u00f3k"
+      ],
+      "name:ce" : [
+        "I\u0430\u043c\u0435\u0440\u043a\u0430 \u043f\u0430\u0447\u0445\u044c\u0430\u043b\u043a"
+      ],
+      "name:ceb" : [
+        "Estados Unidos sa Amerika"
+      ],
+      "name:chr" : [
+        "\u13cc\u13ca\u13a2\u13f3\u13be\u13b5\u13cd\u13d4\u13c5\u13cd\u13a6\u13da\u13a9 \u13be\u13bf \u13a0\u13ba\u13f0\u13df"
+      ],
+      "name:chy" : [
+        "United States"
+      ],
+      "name:ckb" : [
+        "\u0648\u06b5\u0627\u062a\u06d5 \u06cc\u06d5\u06a9\u06af\u0631\u062a\u0648\u0648\u06d5\u06a9\u0627\u0646"
+      ],
+      "name:co" : [
+        "Stati Uniti d'America"
+      ],
+      "name:crh" : [
+        "Amerika Qo\u015fma \u015etatlar\u0131"
+      ],
+      "name:cs" : [
+        "Spojen\u00e9 st\u00e1ty americk\u00e9",
+        "Harvardova univerzita"
+      ],
+      "name:csb" : [
+        "Zjedn\u00f3n\u00e9 Kraje Americzi"
+      ],
+      "name:cu" : [
+        "\u0410\u043c\u0454\u0440\u0438\u043a\u0430\u0301\u043d\u044c\u0441\u043a\ua651 \u0464\u0434\u044c\u043d\u0465\u043d\ua651\u0301 \u0414\u0440\u044c\u0436\u0430\u0301\u0432\ua651"
+      ],
+      "name:cv" : [
+        "\u0410\u043c\u0435\u0440\u0438\u043a\u0103\u0440\u0438 \u041f\u0115\u0440\u043b\u0435\u0448\u04f3\u043b\u043b\u0115 \u0428\u0442\u0430\u0442\u0441\u0435\u043c",
+        "\u0425\u0430\u0440\u0432\u0103\u0440\u0442 \u0423\u043d\u0438\u0432\u0435\u0440\u0441\u0438\u0442\u0435\u0447\u0115"
+      ],
+      "name:cy" : [
+        "Unol Daleithiau America",
+        "Prifysgol Harvard"
+      ],
+      "name:da" : [
+        "Harvard",
+        "Amerikas Forenede Stater"
+      ],
+      "name:de" : [
+        "Vereinigte Staaten von Amerika"
+      ],
+      "name:diq" : [
+        "Dewlet\u00ea Amerikay\u00ea Yewbiyayey"
+      ],
+      "name:dsb" : [
+        "Zjadno\u015bone staty Ameriki"
+      ],
+      "name:dv" : [
+        "\u0787\u07ac\u0789\u07ac\u0783\u07a8\u0786\u07a7"
+      ],
+      "name:dz" : [
+        "\u0f61\u0f74\u0f0b\u0f53\u0f60\u0f72\u0f4a\u0f7a\u0f4a\u0f0b\u0f66\u0f72\u0f0b\u0f4a\u0f7a\u0f66"
+      ],
+      "name:ee" : [
+        "United States"
+      ],
+      "name:el" : [
+        "\u039c\u03b1\u03c3\u03b1\u03c7\u03bf\u03c5\u03c3\u03ad\u03c4\u03b7",
+        "\u0397\u03bd\u03c9\u03bc\u03ad\u03bd\u03b5\u03c2 \u03a0\u03bf\u03bb\u03b9\u03c4\u03b5\u03af\u03b5\u03c2 \u03c4\u03b7\u03c2 \u0391\u03bc\u03b5\u03c1\u03b9\u03ba\u03ae\u03c2",
+        "\u03a0\u03b1\u03bd\u03b5\u03c0\u03b9\u03c3\u03c4\u03ae\u03bc\u03b9\u03bf \u03a7\u03ac\u03c1\u03b2\u03b1\u03c1\u03bd\u03c4"
+      ],
+      "name:eml" : [
+        "Stat Un\u00ee"
+      ],
+      "name:en" : [
+        "United States of America",
+        "Massachusetts"
+      ],
+      "name:eo" : [
+        "Masa\u0109useco",
+        "Universitato Harvard",
+        "Unui\u011dintaj \u015ctatoj de Ameriko"
+      ],
+      "name:es" : [
+        "Estados Unidos de Am\u00e9rica",
+        "Universidad de Harvard"
+      ],
+      "name:et" : [
+        "Ameerika \u00dchendriigid",
+        "Harvardi \u00fclikool"
+      ],
+      "name:eu" : [
+        "Masachusets",
+        "Ameriketako Estatu Batuak",
+        "Harvard Unibertsitatea"
+      ],
+      "name:ext" : [
+        "Estaus U\u00f1\u00edus d'Am\u00e9rica"
+      ],
+      "name:fa" : [
+        "\u062f\u0627\u0646\u0634\u06af\u0627\u0647 \u0647\u0627\u0631\u0648\u0627\u0631\u062f",
+        "\u0627\u06cc\u0627\u0644\u0627\u062a \u0645\u062a\u062d\u062f\u0647 \u0622\u0645\u0631\u06cc\u06a9\u0627",
+        "\u0645\u0627\u0633\u0627\u0686\u0648\u0633\u062a"
+      ],
+      "name:ff" : [
+        "Dowlaaji Dentu\u0257i"
+      ],
+      "name:fi" : [
+        "Harvardin yliopisto",
+        "Amerikan yhdysvallat"
+      ],
+      "name:fiu-vro" : [
+        "Ameeriga \u00dctisriigiq"
+      ],
+      "name:fo" : [
+        "Sambandsr\u00edki\u00f0 Amerika"
+      ],
+      "name:fr" : [
+        "\u00c9tats-Unis d'Am\u00e9rique",
+        "Universit\u00e9 Harvard"
+      ],
+      "name:frp" : [
+        "\u00c8tats-Unis d\u2019Am\u00e8rica"
+      ],
+      "name:frr" : [
+        "Feriind Stoote foon Ameerika"
+      ],
+      "name:fur" : [
+        "St\u00e2ts Un\u00eets di Americhe"
+      ],
+      "name:fy" : [
+        "Feriene Steaten fan Amearika"
+      ],
+      "name:ga" : [
+        "St\u00e1it Aontaithe Mheirice\u00e1",
+        "Ollscoil Harvard"
+      ],
+      "name:gag" : [
+        "Amerika Birle\u015fik Devletl\u00e4ri"
+      ],
+      "name:gan" : [
+        "\u7f8e\u570b"
+      ],
+      "name:gd" : [
+        "Oilthigh Harvard",
+        "Na St\u00e0itean Aonaichte"
+      ],
+      "name:gl" : [
+        "Estados Unidos de Am\u00e9rica",
+        "Universidade Harvard"
+      ],
+      "name:glk" : [
+        "\u0627\u0645\u0631\u06cc\u06a9\u0627"
+      ],
+      "name:gn" : [
+        "Tet\u00e3 pete\u0129 reko Am\u00e9rikagua"
+      ],
+      "name:gu" : [
+        "\u0ab8\u0a82\u0aaf\u0ac1\u0a95\u0acd\u0aa4 \u0ab0\u0abe\u0a9c\u0acd\u0aaf \u0a85\u0aae\u0ac7\u0ab0\u0abf\u0a95\u0abe"
+      ],
+      "name:gv" : [
+        "Steatyn Unnaneysit America"
+      ],
+      "name:ha" : [
+        "kunkiyar taraiyar Amurika"
+      ],
+      "name:hak" : [
+        "M\u00ee-li-ki\u00ean Ha\u030dp-chung-koet"
+      ],
+      "name:haw" : [
+        "Makakukeka",
+        "\u2018Amelika Hui P\u016b \u2018ia"
+      ],
+      "name:he" : [
+        "\u05de\u05e1\u05e6'\u05d5\u05e1\u05d8\u05e1",
+        "\u05d0\u05e8\u05e6\u05d5\u05ea \u05d4\u05d1\u05e8\u05d9\u05ea",
+        "\u05d0\u05d5\u05e0\u05d9\u05d1\u05e8\u05e1\u05d9\u05d8\u05ea \u05d4\u05e8\u05d5\u05d5\u05d0\u05e8\u05d3"
+      ],
+      "name:hi" : [
+        "\u0938\u0902\u092f\u0941\u0915\u094d\u0924 \u0930\u093e\u091c\u094d\u092f \u0905\u092e\u0947\u0930\u093f\u0915\u093e",
+        "\u092e\u0938\u093e\u091a\u0941\u090f\u091f\u094d\u0938",
+        "\u0939\u093e\u0930\u094d\u0935\u0930\u094d\u0921 \u0935\u093f\u0936\u094d\u0935\u0935\u093f\u0926\u094d\u092f\u093e\u0932\u092f"
+      ],
+      "name:hif" : [
+        "United States"
+      ],
+      "name:hr" : [
+        "Sveu\u010dili\u0161te Harvard",
+        "Sjedinjene Ameri\u010dke Dr\u017eave"
+      ],
+      "name:hsb" : [
+        "Zjedno\u0107ene staty Ameriki"
+      ],
+      "name:ht" : [
+        "Etazini"
+      ],
+      "name:hu" : [
+        "Harvard Egyetem",
+        "Amerikai Egyes\u00fclt \u00c1llamok"
+      ],
+      "name:hy" : [
+        "\u0531\u0574\u0565\u0580\u056b\u056f\u0561\u0575\u056b \u0544\u056b\u0561\u0581\u0575\u0561\u056c \u0546\u0561\u0570\u0561\u0576\u0563\u0576\u0565\u0580",
+        "\u0544\u0561\u057d\u0561\u0579\u0578\u0582\u057d\u0565\u0569\u057d",
+        "\u0540\u0561\u0580\u057e\u0561\u0580\u0564\u056b \u0570\u0561\u0574\u0561\u056c\u057d\u0561\u0580\u0561\u0576"
+      ],
+      "name:ia" : [
+        "Statos Unite de America"
+      ],
+      "name:id" : [
+        "Amerika Serikat",
+        "Universitas Harvard"
+      ],
+      "name:ie" : [
+        "Unit States de America"
+      ],
+      "name:ig" : [
+        "Njikota Obodo Amerika"
+      ],
+      "name:ik" : [
+        "United States of America"
+      ],
+      "name:ilo" : [
+        "stados Unidos iti Amerika"
+      ],
+      "name:io" : [
+        "Unionita Stati di Amerika"
+      ],
+      "name:is" : [
+        "Bandar\u00edki Nor\u00f0ur-Amer\u00edku",
+        "Harvard-h\u00e1sk\u00f3li"
+      ],
+      "name:it" : [
+        "Stati Uniti d'America",
+        "Universit\u00e0 di Harvard"
+      ],
+      "name:iu" : [
+        "\u140a\u14a5\u140a\u14d5\u1472"
+      ],
+      "name:ja" : [
+        "\u30de\u30b5\u30c1\u30e5\u30fc\u30bb\u30c3\u30c4\u5dde",
+        "\u30a2\u30e1\u30ea\u30ab\u5408\u8846\u56fd",
+        "\u30cf\u30fc\u30d0\u30fc\u30c9\u5927\u5b66"
+      ],
+      "name:jbo" : [
+        ".iunaited.steits."
+      ],
+      "name:jv" : [
+        "Am\u00e9rika Sar\u00e9kat",
+        "Universitas Harvard"
+      ],
+      "name:ka" : [
+        "\u10d0\u10db\u10d4\u10e0\u10d8\u10d9\u10d8\u10e1 \u10e8\u10d4\u10d4\u10e0\u10d7\u10d4\u10d1\u10e3\u10da\u10d8 \u10e8\u10e2\u10d0\u10e2\u10d4\u10d1\u10d8",
+        "\u10db\u10d0\u10e1\u10d0\u10e9\u10e3\u10e1\u10d4\u10e2\u10e1\u10d8",
+        "\u10f0\u10d0\u10e0\u10d5\u10d0\u10e0\u10d3\u10d8\u10e1 \u10e3\u10dc\u10d8\u10d5\u10d4\u10e0\u10e1\u10d8\u10e2\u10d4\u10e2\u10d8"
+      ],
+      "name:kaa" : [
+        "Amerika Qurama Shtatlar\u0131"
+      ],
+      "name:kab" : [
+        "Iwunak Yedduklen"
+      ],
+      "name:kbd" : [
+        "\u0410\u043c\u0435\u0440\u0438\u043a\u044d \u0428\u0442\u0430\u0442 \u0417\u044d\u0433\u0443\u044d\u0442"
+      ],
+      "name:ki" : [
+        "United States"
+      ],
+      "name:kk" : [
+        "\u0410\u043c\u0435\u0440\u0438\u043a\u0430 \u049a\u04b1\u0440\u0430\u043c\u0430 \u0428\u0442\u0430\u0442\u0442\u0430\u0440\u044b",
+        "\u0413\u0430\u0440\u0432\u0430\u0440\u0434 \u0443\u043d\u0438\u0432\u0435\u0440\u0441\u0438\u0442\u0435\u0442\u0456"
+      ],
+      "name:kl" : [
+        "Naalagaaffeqatigiit"
+      ],
+      "name:km" : [
+        "\u179f\u17a0\u179a\u178a\u17d2\u178b\u17a2\u17b6\u1798\u17c1\u179a\u17b7\u1780"
+      ],
+      "name:kn" : [
+        "\u0c85\u0cae\u0cc7\u0cb0\u0cbf\u0c95 \u0cb8\u0c82\u0caf\u0cc1\u0c95\u0ccd\u0ca4 \u0cb8\u0c82\u0cb8\u0ccd\u0ca5\u0cbe\u0ca8",
+        "\u0cb9\u0cbe\u0cb0\u0ccd\u0cb5\u0cb0\u0ccd\u0ca1\u0ccd \u0cb5\u0cbf\u0cb6\u0ccd\u0cb5\u0cb5\u0cbf\u0ca6\u0ccd\u0caf\u0cbe\u0ca8\u0cbf\u0cb2\u0caf"
+      ],
+      "name:ko" : [
+        "\ub9e4\uc0ac\ucd94\uc138\uce20",
+        "\ud558\ubc84\ub4dc \ub300\ud559\uad50",
+        "\ubbf8\uad6d"
+      ],
+      "name:koi" : [
+        "\u0410\u043c\u0435\u0440\u0438\u043a\u0430\u0438\u0441\u044c \u04e6\u0442\u043b\u0430\u0430\u0441\u044c\u04e7\u043c \u0428\u0442\u0430\u0442\u0442\u044d\u0437"
+      ],
+      "name:krc" : [
+        "\u0410\u043c\u0435\u0440\u0438\u043a\u0430\u043d\u044b \u0411\u0438\u0440\u043b\u0435\u0448\u0433\u0435\u043d \u0428\u0442\u0430\u0442\u043b\u0430\u0440\u044b"
+      ],
+      "name:ks" : [
+        "\u0938\u0902\u092f\u0941\u0915\u094d\u0924 \u0930\u093e\u091c\u094d\u200d\u092f \u0905\u092e\u0947\u0930\u093f\u0915\u093e"
+      ],
+      "name:ksh" : [
+        "Vereenichde Staate van Amerika"
+      ],
+      "name:ku" : [
+        "Zan\u00eengeha Harvard\u00ea",
+        "Dewlet\u00ean Yekb\u00fby\u00ee y\u00ean Amer\u00eekay\u00ea"
+      ],
+      "name:kv" : [
+        "\u0410\u043c\u0435\u0440\u0438\u043a\u0430\u0441\u0430 \u04e6\u0442\u0443\u0432\u0442\u04e7\u043c \u0428\u0442\u0430\u0442\u044a\u044f\u0441"
+      ],
+      "name:kw" : [
+        "Statys Unys Amerika"
+      ],
+      "name:ky" : [
+        "\u0410\u043c\u0435\u0440\u0438\u043a\u0430 \u041a\u043e\u0448\u043c\u043e \u0428\u0442\u0430\u0442\u0442\u0430\u0440\u044b"
+      ],
+      "name:la" : [
+        "Civitates Foederatae Americae",
+        "Universitas Harvardiana"
+      ],
+      "name:lad" : [
+        "Estatos Unitos d'Amerika"
+      ],
+      "name:lb" : [
+        "Vereenegt Staate vun Amerika",
+        "Harvard Universit\u00e9it"
+      ],
+      "name:lbe" : [
+        "\u0410\u043c\u0435\u0440\u0438\u043a\u0430\u043d\u0430\u043b \u0426\u0430\u0447\u04c0\u0443\u043d\u0445\u044c\u0443 \u0428\u0442\u0430\u0442\u0440\u0443"
+      ],
+      "name:lez" : [
+        "\u0410\u043c\u0435\u0440\u0438\u043a\u0430\u0434\u0438\u043d \u0421\u0430\u0434\u0445\u044c\u0430\u043d\u0432\u0430\u0439 \u0428\u0442\u0430\u0442\u0430\u0440"
+      ],
+      "name:lg" : [
+        "Amereka"
+      ],
+      "name:li" : [
+        "Vereinegde State van Amerika"
+      ],
+      "name:lij" : [
+        "Stati Un\u00efi d'America"
+      ],
+      "name:lmo" : [
+        "Stat \u00dcn\u00ec d'America"
+      ],
+      "name:ln" : [
+        "Lisang\u00e1 lya Amer\u00edka"
+      ],
+      "name:lo" : [
+        "\u0eaa\u0eb0\u0eab\u0eb0\u0ea5\u0eb1\u0e94\u0ead\u0eb2\u0ec0\u0ea1\u0ea5\u0eb4\u0e81\u0eb2"
+      ],
+      "name:lt" : [
+        "Jungtin\u0117s Amerikos Valstijos",
+        "Masa\u010dusetsas",
+        "Harvardo universitetas"
+      ],
+      "name:ltg" : [
+        "Amerikys Sa\u0161kierstuos Va\u013csteibys"
+      ],
+      "name:lv" : [
+        "Amerikas Savienot\u0101s Valstis",
+        "Masa\u010d\u016bsetsa",
+        "H\u0101rvarda universit\u0101te"
+      ],
+      "name:map-bms" : [
+        "Amerika Serikat"
+      ],
+      "name:mdf" : [
+        "\u0410\u043c\u0435\u0440\u0438\u043a\u043e\u043d\u044c \u0410\u0439\u043c\u0430\u043a\u043d\u0435\u043d\u044c \u0421\u043e\u0442\u043a\u0441\u0441\u043d\u0430"
+      ],
+      "name:mg" : [
+        "Etazonia"
+      ],
+      "name:mhr" : [
+        "\u0410\u043c\u0435\u0440\u0438\u043a\u044b\u0441\u0435 \u0423\u0448\u044b\u043c\u043e \u0428\u0442\u0430\u0442\u0432\u043b\u0430\u043a"
+      ],
+      "name:mi" : [
+        "Hononga-o-Amerika"
+      ],
+      "name:min" : [
+        "Amerika Sarikat"
+      ],
+      "name:mk" : [
+        "\u0421\u043e\u0435\u0434\u0438\u043d\u0435\u0442\u0438 \u0410\u043c\u0435\u0440\u0438\u043a\u0430\u043d\u0441\u043a\u0438 \u0414\u0440\u0436\u0430\u0432\u0438",
+        "\u0425\u0430\u0440\u0432\u0430\u0440\u0434"
+      ],
+      "name:ml" : [
+        "\u0d05\u0d2e\u0d47\u0d30\u0d3f\u0d15\u0d4d\u0d15\u0d28\u0d4d\u200d \u0d10\u0d15\u0d4d\u0d2f\u0d28\u0d3e\u0d1f\u0d41\u0d15\u0d33\u0d4d\u200d"
+      ],
+      "name:mn" : [
+        "\u0410\u043c\u0435\u0440\u0438\u043a\u0438\u0439\u043d \u041d\u044d\u0433\u0434\u0441\u044d\u043d \u0423\u043b\u0441"
+      ],
+      "name:mr" : [
+        "\u0939\u093e\u0930\u094d\u0935\u0930\u094d\u0921 \u0935\u093f\u0926\u094d\u092f\u093e\u092a\u0940\u0920",
+        "\u0905\u092e\u0947\u0930\u093f\u0915\u0947\u091a\u0940 \u0938\u0902\u092f\u0941\u0915\u094d\u0924 \u0938\u0902\u0938\u094d\u0925\u093e\u0928\u0947"
+      ],
+      "name:mrj" : [
+        "\u0410\u043c\u0435\u0440\u0438\u043a\u044b\u043d \u0423\u0448\u044b\u043c\u044b \u0428\u0442\u0430\u0442\u0432\u043b\u04d3\u0436\u04f9"
+      ],
+      "name:ms" : [
+        "Amerika Syarikat",
+        "Universiti Harvard"
+      ],
+      "name:mt" : [
+        "Stati Uniti tal-Amerika"
+      ],
+      "name:mwl" : [
+        "Stados Ounidos de la Am\u00e9rica"
+      ],
+      "name:my" : [
+        "\u1021\u1019\u1031\u101b\u102d\u1000\u1014\u103a\u1015\u103c\u100a\u103a\u1011\u1031\u102c\u1004\u103a\u1005\u102f",
+        "\u101f\u102c\u1038\u1017\u1010\u103a \u1010\u1000\u1039\u1000\u101e\u102d\u102f\u101c\u103a"
+      ],
+      "name:myv" : [
+        "\u0410\u043c\u0435\u0440\u0438\u043a\u0430\u043d\u044c \u0412\u0435\u0439\u0442\u044c\u0441\u044d\u043d\u0434\u044f\u0432\u043a\u0441 \u0428\u0442\u0430\u0442\u0442\u043d\u044d"
+      ],
+      "name:mzn" : [
+        "\u0645\u062a\u062d\u062f\u0647 \u0627\u06cc\u0627\u0644\u0627\u062a \u0622\u0645\u0631\u06cc\u06a9\u0627"
+      ],
+      "name:na" : [
+        "Eben Merika"
+      ],
+      "name:nah" : [
+        "Tlacetil\u012blli Tlahtohc\u0101y\u014dtl Ixachitl\u0101n"
+      ],
+      "name:nap" : [
+        "State Aunite d'Amereca"
+      ],
+      "name:nds" : [
+        "Verenigten Staten vun Amerika"
+      ],
+      "name:nds-nl" : [
+        "Verienigde Staoten van Amerika"
+      ],
+      "name:ne" : [
+        "\u0938\u0902\u092f\u0941\u0915\u094d\u0924 \u0930\u093e\u091c\u094d\u092f \u0905\u092e\u0947\u0930\u093f\u0915\u093e"
+      ],
+      "name:new" : [
+        "\u0938\u0902\u092f\u0941\u0915\u094d\u0924 \u0930\u093e\u091c\u094d\u092f \u0905\u092e\u0947\u0930\u093f\u0915\u093e"
+      ],
+      "name:nl" : [
+        "Verenigde Staten van Amerika",
+        "Harvard-universiteit"
+      ],
+      "name:nn" : [
+        "USA"
+      ],
+      "name:no" : [
+        "Amerikas forente stater"
+      ],
+      "name:nov" : [
+        "Unionati States de Amerika"
+      ],
+      "name:nrm" : [
+        "\u00catats Unnis d'Am\u00e9thique"
+      ],
+      "name:nso" : [
+        "United States of America"
+      ],
+      "name:nv" : [
+        "W\u00e1\u00e1shindoon Bik\u00e9yah A\u0142hidadiidzoo\u00edg\u00ed\u00ed",
+        "M\u00e9\u00e9s\u00edch\u00f3oshish Hahoodzo"
+      ],
+      "name:oc" : [
+        "Universitat de Harvard",
+        "Estats Units d'America"
+      ],
+      "name:om" : [
+        "USA"
+      ],
+      "name:or" : [
+        "\u0b2f\u0b41\u0b15\u0b4d\u0b24\u0b30\u0b3e\u0b37\u0b4d\u0b1f\u0b4d\u0b30 \u0b06\u0b2e\u0b47\u0b30\u0b3f\u0b15\u0b3e"
+      ],
+      "name:os" : [
+        "\u0410\u043c\u0435\u0440\u0438\u043a\u00e6\u0439\u044b \u0418\u0443\u0433\u043e\u043d\u0434 \u0428\u0442\u0430\u0442\u0442\u00e6"
+      ],
+      "name:pa" : [
+        "\u0a38\u0a70\u0a2f\u0a41\u0a15\u0a24 \u0a30\u0a3e\u0a1c \u0a05\u0a2e\u0a30\u0a40\u0a15\u0a3e"
+      ],
+      "name:pag" : [
+        "Estados Unidos"
+      ],
+      "name:pam" : [
+        "United States ning America"
+      ],
+      "name:pap" : [
+        "Estadonan Uni di Merka"
+      ],
+      "name:pcd" : [
+        "\u00c9tats-Unis Anm\u00e9rikes"
+      ],
+      "name:pdc" : [
+        "Vereenichde Schtaate vun Amerikaa"
+      ],
+      "name:pfl" : [
+        "Verainischde Schdaade vun Ameriga"
+      ],
+      "name:pih" : [
+        "Yunitid Staits"
+      ],
+      "name:pl" : [
+        "Massachusetts",
+        "Stany Zjednoczone Ameryki"
+      ],
+      "name:pms" : [
+        "Stat Un\u00ec d'Am\u00e9rica"
+      ],
+      "name:pnb" : [
+        "\u0627\u0645\u0631\u06cc\u06a9\u06c1"
+      ],
+      "name:ps" : [
+        "\u062f \u0627\u0645\u0631\u064a\u06a9\u0627 \u0645\u062a\u062d\u062f\u0647 \u0627\u064a\u0627\u0644\u0627\u062a"
+      ],
+      "name:pt" : [
+        "Estados Unidos da Am\u00e9rica",
+        "Universidade Harvard"
+      ],
+      "name:qu" : [
+        "Hukllachasqa Amirika Suyukuna",
+        "Harvard Yachay Suntur"
+      ],
+      "name:rm" : [
+        "Stadis Unids da l'America"
+      ],
+      "name:rn" : [
+        "Leta Zunze Ubumwe za Amerika"
+      ],
+      "name:ro" : [
+        "Statele Unite ale Americii",
+        "Universitatea Harvard"
+      ],
+      "name:roa-tara" : [
+        "Stat\u00e8re Aun\u00ecte d'Americhe"
+      ],
+      "name:ru" : [
+        "\u041c\u0430\u0441\u0441\u0430\u0447\u0443\u0441\u0435\u0442\u0441",
+        "\u0421\u043e\u0435\u0434\u0438\u043d\u0451\u043d\u043d\u044b\u0435 \u0428\u0442\u0430\u0442\u044b \u0410\u043c\u0435\u0440\u0438\u043a\u0438",
+        "\u0413\u0430\u0440\u0432\u0430\u0440\u0434\u0441\u043a\u0438\u0439 \u0443\u043d\u0438\u0432\u0435\u0440\u0441\u0438\u0442\u0435\u0442"
+      ],
+      "name:rue" : [
+        "\u0421\u043f\u043e\u0454\u043d\u044b \u0428\u0442\u0430\u0442\u044b \u0410\u043c\u0435\u0440\u0438\u0446\u044c\u043a\u044b"
+      ],
+      "name:rw" : [
+        "Leta Zunze Ubumwe z\u2019Amerika"
+      ],
+      "name:sa" : [
+        "\u0938\u0902\u092f\u0941\u0915\u094d\u0924\u093e\u0928\u093f \u0930\u093e\u091c\u094d\u092f\u093e\u0928\u093f",
+        "\u0939\u093e\u0930\u094d\u0935\u0930\u094d\u0921\u094d \u0935\u093f\u0936\u094d\u0935\u0935\u093f\u0926\u094d\u092f\u093e\u0932\u092f\u0903"
+      ],
+      "name:sah" : [
+        "\u0410\u043c\u0435\u0440\u0438\u043a\u0430 \u0425\u043e\u043b\u0431\u043e\u04bb\u0443\u043a\u0442\u0430\u0430\u0445 \u0428\u0442\u0430\u0442\u0442\u0430\u0440\u0430"
+      ],
+      "name:sc" : [
+        "Istados Unidos de America"
+      ],
+      "name:scn" : [
+        "Stati Uniti"
+      ],
+      "name:sco" : [
+        "Unitit States o Americae"
+      ],
+      "name:sd" : [
+        "\u0622\u0645\u0631\u064a\u06aa\u0627"
+      ],
+      "name:se" : [
+        "Amerihk\u00e1 ovttastuvvan st\u00e1htat"
+      ],
+      "name:sg" : [
+        "\u00c2K\u00f6d\u00f6r\u00f6-\u00f4ko t\u00ee Amer\u00eeka"
+      ],
+      "name:sh" : [
+        "Sjedinjene Ameri\u010dke Dr\u017eave"
+      ],
+      "name:si" : [
+        "\u0d85'\u0db8\u0dd9\u0dbb\u0dd2\u0d9a\u0dcf\u200d\u0dc0\u0dda \u0d91\u0d9a\u0dca\u0dc3\u0dad\u0dca \u0dbb\u0dcf\u0da2\u0dca\u200d\u0dba\u0dba\u0db1\u0dca"
+      ],
+      "name:simple" : [
+        "United States"
+      ],
+      "name:sk" : [
+        "Spojen\u00e9 \u0161t\u00e1ty americk\u00e9"
+      ],
+      "name:sl" : [
+        "Univerza Harvard",
+        "Zdru\u017eene dr\u017eave Amerike"
+      ],
+      "name:sm" : [
+        "Iunaite Sitete o Amerika"
+      ],
+      "name:sn" : [
+        "United States of America"
+      ],
+      "name:so" : [
+        "Mareykanka"
+      ],
+      "name:sq" : [
+        "Harvard",
+        "Shtetet e Bashkuara t\u00eb Amerik\u00ebs"
+      ],
+      "name:sr" : [
+        "\u0421\u0458\u0435\u0434\u0438\u045a\u0435\u043d\u0435 \u0410\u043c\u0435\u0440\u0438\u0447\u043a\u0435 \u0414\u0440\u0436\u0430\u0432\u0435",
+        "\u041c\u0430\u0441\u0430\u0447\u0443\u0441\u0435\u0442\u0441",
+        "\u0423\u043d\u0438\u0432\u0435\u0440\u0437\u0438\u0442\u0435\u0442 \u0425\u0430\u0440\u0432\u0430\u0440\u0434"
+      ],
+      "name:srn" : [
+        "Kondre Makandrameki"
+      ],
+      "name:ss" : [
+        "IMelika"
+      ],
+      "name:stq" : [
+        "Fereende Stoaten fon Amerikoa"
+      ],
+      "name:su" : [
+        "Am\u00e9rika Sarikat"
+      ],
+      "name:sv" : [
+        "Amerikas F\u00f6renta Stater"
+      ],
+      "name:sw" : [
+        "Chuo Kikuu cha Harvard",
+        "Muungano wa Madola ya Amerika"
+      ],
+      "name:szl" : [
+        "Zjednocz\u016fne Sztaty Ameriki"
+      ],
+      "name:ta" : [
+        "\u0b85\u0bae\u0bc6\u0bb0\u0bbf\u0b95\u0bcd\u0b95 \u0b90\u0b95\u0bcd\u0b95\u0bbf\u0baf \u0ba8\u0bbe\u0b9f\u0bc1",
+        "\u0bb9\u0bbe\u0bb0\u0bcd\u0bb5\u0bb0\u0bcd\u0b9f\u0bc1 \u0baa\u0bb2\u0bcd\u0b95\u0bb2\u0bc8\u0b95\u0bcd\u0b95\u0bb4\u0b95\u0bae\u0bcd"
+      ],
+      "name:te" : [
+        "\u0c05\u0c2e\u0c46\u0c30\u0c3f\u0c15\u0c3e \u0c38\u0c02\u0c2f\u0c41\u0c15\u0c4d\u0c24 \u0c30\u0c3e\u0c37\u0c4d\u0c1f\u0c4d\u0c30\u0c3e\u0c32\u0c41",
+        "\u0c39\u0c3e\u0c30\u0c4d\u0c35\u0c30\u0c4d\u0c21\u0c4d \u0c35\u0c3f\u0c36\u0c4d\u0c35\u0c35\u0c3f\u0c26\u0c4d\u0c2f\u0c3e\u0c32\u0c2f\u0c02"
+      ],
+      "name:tet" : [
+        "Estadu Naklibur Sira Am\u00e9rika Nian"
+      ],
+      "name:tg" : [
+        "\u0418\u0451\u043b\u043e\u0442\u0438 \u041c\u0443\u0442\u0442\u0430\u04b3\u0438\u0434\u0430\u0438 \u0410\u043c\u0440\u0438\u043a\u043e"
+      ],
+      "name:th" : [
+        "\u0e2a\u0e2b\u0e23\u0e31\u0e10\u0e2d\u0e40\u0e21\u0e23\u0e34\u0e01\u0e32",
+        "\u0e21\u0e2b\u0e32\u0e27\u0e34\u0e17\u0e22\u0e32\u0e25\u0e31\u0e22\u0e2e\u0e32\u0e23\u0e4c\u0e27\u0e32\u0e23\u0e4c\u0e14",
+        "\u0e23\u0e31\u0e10\u0e41\u0e21\u0e2a\u0e0b\u0e32\u0e0a\u0e39\u0e40\u0e0b\u0e15\u0e2a\u0e4c"
+      ],
+      "name:tk" : [
+        "Amerikany\u0148 Birle\u015fen \u015etatlary"
+      ],
+      "name:tl" : [
+        "Estados Unidos"
+      ],
+      "name:tn" : [
+        "USA"
+      ],
+      "name:to" : [
+        "Pule\u02bbanga Fakataha 'o 'Amelika"
+      ],
+      "name:tpi" : [
+        "Yunaitet Stet bilong Amerika"
+      ],
+      "name:tr" : [
+        "Amerika Birle\u015fik Devletleri",
+        "Harvard \u00dcniversitesi"
+      ],
+      "name:ts" : [
+        "United States"
+      ],
+      "name:tt" : [
+        "\u0410\u043c\u0435\u0440\u0438\u043a\u0430 \u041a\u0443\u0448\u043c\u0430 \u0428\u0442\u0430\u0442\u043b\u0430\u0440\u044b",
+        "Harvard universitet\u0131"
+      ],
+      "name:tw" : [
+        "USA"
+      ],
+      "name:ty" : [
+        "Fenua Marite"
+      ],
+      "name:udm" : [
+        "\u0410\u043c\u0435\u0440\u0438\u043a\u0430\u043b\u044d\u043d \u041e\u0433\u0430\u0437\u0435\u044f\u0441\u044c\u043a\u0435\u043c \u0428\u0442\u0430\u0442\u044a\u0451\u0441\u044b\u0437"
+      ],
+      "name:ug" : [
+        "\u062e\u0627\u0631\u06cb\u0627\u0631\u062f \u0626\u06c7\u0646\u0649\u06cb\u06d0\u0631\u0633\u0649\u062a\u06d0\u062a\u0649",
+        "\u0626\u0627\u0645\u06d0\u0631\u0649\u0643\u0627 \u0642\u0648\u0634\u0645\u0627 \u0634\u062a\u0627\u062a\u0644\u0649\u0631\u0649"
+      ],
+      "name:uk" : [
+        "\u041c\u0430\u0441\u0441\u0430\u0447\u0443\u0441\u0435\u0442\u0441",
+        "\u0421\u043f\u043e\u043b\u0443\u0447\u0435\u043d\u0456 \u0428\u0442\u0430\u0442\u0438 \u0410\u043c\u0435\u0440\u0438\u043a\u0438",
+        "\u0413\u0430\u0440\u0432\u0430\u0440\u0434\u0441\u044c\u043a\u0438\u0439 \u0443\u043d\u0456\u0432\u0435\u0440\u0441\u0438\u0442\u0435\u0442"
+      ],
+      "name:ur" : [
+        "\u062c\u0627\u0645\u0639\u06c1 \u06c1\u0627\u0631\u0648\u0631\u0688",
+        "\u0631\u06cc\u0627\u0633\u062a\u06c1\u0627\u0626\u06d2 \u0645\u062a\u062d\u062f\u06c1 \u0627\u0645\u0631\u06cc\u06a9\u06c1"
+      ],
+      "name:uz" : [
+        "Amerika Qo\u02bbshma Shtatlari"
+      ],
+      "name:vec" : [
+        "Stati Un\u00eci de la M\u00e8rica"
+      ],
+      "name:vep" : [
+        "Amerikan \u00dchtenzoittud Valdkundad"
+      ],
+      "name:vi" : [
+        "Hoa K\u1ef3",
+        "\u0110\u1ea1i h\u1ecdc Harvard"
+      ],
+      "name:vls" : [
+        "Ver\u00eanigde Stoaten van Amerika"
+      ],
+      "name:vo" : [
+        "Lamerik\u00e4n"
+      ],
+      "name:wa" : [
+        "Estats Unis d' Amerike"
+      ],
+      "name:war" : [
+        "Estados Unidos"
+      ],
+      "name:wo" : [
+        "Diwaan-yu-Bennoo yu Aamerig"
+      ],
+      "name:wuu" : [
+        "\u7f8e\u56fd"
+      ],
+      "name:xal" : [
+        "\u0410\u043c\u0435\u0440\u0438\u043a\u0438\u043d \u041d\u0438\u0438\u0446\u04d9\u0442\u04d9 \u041e\u0440\u043d \u041d\u0443\u0442\u0433\u0443\u0434"
+      ],
+      "name:xh" : [
+        "IYunayithedi Steyitsi"
+      ],
+      "name:xmf" : [
+        "\u10d0\u10db\u10d4\u10e0\u10d8\u10d9\u10d0\u10e8 \u10d0\u10d9\u10dd\u10d0\u10e0\u10d7\u10d0\u10e4\u10d8\u10da\u10d8 \u10e8\u10e2\u10d0\u10e2\u10d4\u10e4\u10d8"
+      ],
+      "name:yi" : [
+        "\u05e4\u05d0\u05e8\u05d0\u05d9\u05d9\u05e0\u05d9\u05e7\u05d8\u05e2 \u05e9\u05d8\u05d0\u05d8\u05df \u05e4\u05d5\u05df \u05d0\u05de\u05e2\u05e8\u05d9\u05e7\u05e2",
+        "\u05d4\u05d0\u05e8\u05d5\u05d5\u05d0\u05e8\u05d3 \u05d0\u05d5\u05e0\u05d9\u05d5\u05d5\u05e2\u05e8\u05e1\u05d9\u05d8\u05e2\u05d8",
+        "\u05de\u05d0\u05e1\u05d0\u05d8\u05e9\u05d5\u05e1\u05e2\u05d8\u05e1"
+      ],
+      "name:yo" : [
+        "Yunif\u00e1s\u00edt\u00ec Harvard",
+        "\u00c0w\u1ecdn \u00ccp\u00ednl\u1eb9\u0300 A\u1e63\u1ecd\u0300kan Am\u1eb9\u0301r\u00edk\u00e0"
+      ],
+      "name:za" : [
+        "Meijgoz"
+      ],
+      "name:zea" : [
+        "Vere\u00eanigde Staeten"
+      ],
+      "name:zh" : [
+        "\u54c8\u4f5b\u5927\u5b66",
+        "\u9a6c\u8428\u8bf8\u585e\u5dde",
+        "\u7f8e\u5229\u575a\u5408\u4f17\u56fd"
+      ],
+      "name:zh-classical" : [
+        "\u7f8e\u5229\u5805\u5408\u773e\u570b"
+      ],
+      "name:zh-min-nan" : [
+        "America Ha\u030dp-chi\u00f2ng-kok"
+      ],
+      "name:zh-yue" : [
+        "\u5373\u7f8e\u5229\u5805\u5408\u773e\u570b"
+      ],
+      "name:zu" : [
+        "IMelika"
+      ],
+      "natural" : [
+        "water",
+        "wetland",
+        "wood",
+        "beach",
+        "cliff"
+      ],
+      "network" : [
+        "US:MA",
+        "Amtrak",
+        "BOS subway",
+        "rcn",
+        "MBTA",
+        "ncn",
+        "US:I",
+        "lcn",
+        "lwn",
+        "US:US",
+        "MBTA Commuter Rail",
+        "CCRTA"
+      ],
+      "nist:fips_code" : [
+        "25009"
+      ],
+      "nist:state_fips" : [
+        "25"
+      ],
+      "note" : [
+        "free of charge from airport to South Station",
+        "Owned by Boston University; rents only to Grad students/staff/faculty.",
+        "I-93 hazmat route",
+        "The actual name (and ref) need to be found"
+      ],
+      "official_name" : [
+        "Commonwealth of Massachusetts"
+      ],
+      "official_name:vi" : [
+        "H\u1ee3p ch\u00fang qu\u1ed1c Hoa K\u1ef3; H\u1ee3p ch\u00fang qu\u1ed1c Hoa K\u00ec; H\u1ee3p ch\u1ee7ng qu\u1ed1c Hoa K\u1ef3; H\u1ee3p ch\u1ee7ng qu\u1ed1c Hoa K\u00ec"
+      ],
+      "old_name:vi" : [
+        "M\u1ef9 L\u1ee3i Ki\u00ean; Ma Ly C\u0103n; Nh\u00e3 Di L\u00fd"
+      ],
+      "old_railway_operator" : [
+        "NYC",
+        "NYNH&H"
+      ],
+      "operator" : [
+        "East Coast Greenway Alliance",
+        "Amtrak",
+        "LAZ Parking",
+        "MBCR",
+        "MTBA",
+        "MBTA",
+        "MBTA Commuter Rail",
+        "CCRTA",
+        "Massachusetts Bay Transportation Authority"
+      ],
+      "operator:original" : [
+        "New York, New Haven, and Hartford Railroad"
+      ],
+      "owner" : [
+        "City Of Boston",
+        "Dcr - Division Of Urban Parks And Recreation",
+        "Harvard Pres And Fellows",
+        "Roman Catholic Archdiocese Of Boston",
+        "City Of Quincy",
+        "City Of Weymouth",
+        "National Park Service",
+        "Department Of Fish And Game",
+        "Town Of Winthrop",
+        "City Of Revere",
+        "Harvard University",
+        "Town Of Hingham",
+        "Commonwealth Of Massachusetts",
+        "Massachusetts Bay Transit Authority"
+      ],
+      "ownership" : [
+        "national",
+        "state",
+        "municipal",
+        "private"
+      ],
+      "parking" : [
+        "multi-storey",
+        "surface"
+      ],
+      "passenger" : [
+        "suburban",
+        "regional",
+        "national"
+      ],
+      "payment:cash" : [
+        "yes"
+      ],
+      "payment:cheque" : [
+        "no"
+      ],
+      "phone" : [
+        "617-469-8000"
+      ],
+      "power" : [
+        "sub_station",
+        "generator"
+      ],
+      "protected" : [
+        "limited",
+        "perpetuity"
+      ],
+      "public_transport" : [
+        "stop_area"
+      ],
+      "public_transport:version" : [
+        "2"
+      ],
+      "ref" : [
+        "CapeFlyer",
+        "Lake Shore Limited",
+        "NEC",
+        "Providence/Stroughton Line",
+        "1A",
+        "Fairmount Line",
+        "Kingston/Plymouth Line",
+        "3A",
+        "Blue Line",
+        "Framingham/Worcester Line",
+        "Red Line",
+        "Orange Line",
+        "1",
+        "M Line",
+        "ECG",
+        "Braintree Branch",
+        "SL 1",
+        "Acela Express",
+        "Greenbush Line",
+        "2A",
+        "Middleborough/Lakeville Line",
+        "Providence/Stoughton Line",
+        "Franklin Line",
+        "Providence/Stroughton",
+        "MA",
+        "CT1",
+        "CT2",
+        "W4",
+        "Needham Line"
+      ],
+      "ref:fips" : [
+        "25"
+      ],
+      "restriction" : [
+        "only_right_turn",
+        "no_u_turn",
+        "no_left_turn",
+        "no_right_turn",
+        "only_straight_on",
+        "only_left_turn",
+        "no_straight_on"
+      ],
+      "roof:colour" : [
+        "#EEEEEE"
+      ],
+      "roof:height" : [
+        "0.5"
+      ],
+      "roof:material" : [
+        "concrete"
+      ],
+      "roof:shape" : [
+        "flat"
+      ],
+      "route" : [
+        "bicycle",
+        "hiking",
+        "tram",
+        "bus",
+        "tracks",
+        "boat",
+        "train",
+        "subway",
+        "trolleybus",
+        "foot",
+        "railway",
+        "road",
+        "light_rail"
+      ],
+      "route_master" : [
+        "train",
+        "subway"
+      ],
+      "short_name:vi" : [
+        "M\u1ef9"
+      ],
+      "site" : [
+        "parking"
+      ],
+      "source" : [
+        "Kerry Irons, Adventure Cycling Association <irons54vortex@gmail.com>",
+        "USGS Geonames",
+        "www.amtrakdowneaster.com",
+        "county_import_v0.1_20080508235451",
+        "Bing",
+        "MassGIS OpenSpace (http://www.mass.gov/mgis/osp.htm)",
+        "http://map.greenway.org",
+        "MassGIS Buildings (http://www.mass.gov/mgis/lidarbuildingfp2d.htm)",
+        "MBTA website",
+        "Massachusetts Institute of Technology - Facility Information Systems; USGS Geonames",
+        "DEP Wetlands (1:12,000) - April 2007 (http://www.mass.gov/mgis/wetdep.htm)",
+        "BostonMaps: OpenData (http://maps.cityofboston.gov/ArcGIS/rest/services/Basemaps/basemap_SPF/MapServer/31)"
+      ],
+      "source_ref" : [
+        "http://hubmaps1.cityofboston.gov/egis/Map.aspx?TabValue=Neighborhood"
+      ],
+      "sport" : [
+        "athletics",
+        "baseball",
+        "canoe"
+      ],
+      "start_date" : [
+        "1941",
+        "1906-11-04"
+      ],
+      "subway" : [
+        "yes",
+        "no"
+      ],
+      "surface" : [
+        "sand",
+        "rocky",
+        "asphalt"
+      ],
+      "symbol" : [
+        "http://upload.wikimedia.org/wikipedia/commons/f/f3/US_3.svg",
+        "http://en.wikipedia.org/wiki/File:I-90.svg",
+        "http://upload.wikimedia.org/wikipedia/commons/9/92/US_20.svg",
+        "blue blaze",
+        "http://upload.wikimedia.org/wikipedia/commons/c/ca/I-90.svg",
+        "http://upload.wikimedia.org/wikipedia/commons/8/80/US_1.svg",
+        "http://upload.wikimedia.org/wikipedia/commons/6/61/I-95.svg"
+      ],
+      "tidal" : [
+        "yes"
+      ],
+      "timezone" : [
+        "America/New_York"
+      ],
+      "to" : [
+        "Bowdoin",
+        "Forest Hills",
+        "Mattapan",
+        "Brookline Village, Brookline",
+        "Needham",
+        "Wonderland",
+        "Fitchburg",
+        "Washington Union Station"
+      ],
+      "tomb" : [
+        "sarcophagus"
+      ],
+      "tourism" : [
+        "museum",
+        "hotel"
+      ],
+      "train" : [
+        "yes"
+      ],
+      "tram" : [
+        "no"
+      ],
+      "type" : [
+        "building",
+        "restriction",
+        "street",
+        "network",
+        "bridge",
+        "route_master",
+        "route",
+        "turnlanes:turns",
+        "site",
+        "person",
+        "associatedStreet",
+        "public_transport",
+        "turnlanes:lengths",
+        "boundary",
+        "multipolygon"
+      ],
+      "url" : [
+        "http://www.minutemanbikeway.org/"
+      ],
+      "water" : [
+        "river",
+        "reservoir"
+      ],
+      "waterway" : [
+        "riverbank"
+      ],
+      "website" : [
+        "http://www.amtrak.com",
+        "http://www.bu.edu/rpm",
+        "http://www.capeflyer.com/",
+        "http://www.thefreedomtrail.org/",
+        "http://www.onekendallsquare.com/",
+        "http://www.mbta.com/",
+        "http://www.catholicmemorial.org/",
+        "http://ward.newton.k12.ma.us/"
+      ],
+      "wetland" : [
+        "saltmarsh",
+        "tidalflat",
+        "marsh",
+        "wet_meadow"
+      ],
+      "wheelchair" : [
+        "yes"
+      ],
+      "wikidata" : [
+        "Q49131",
+        "Q30",
+        "Q771"
+      ],
+      "wikipedia" : [
+        "en:Freedom Trail",
+        "en:Hull, Massachusetts",
+        "en:Massachusetts_Route_28",
+        "en:Northeast Corridor",
+        "en:Watertown, Massachusetts",
+        "en:U.S._Route_1_in_Massachusetts",
+        "en:Lake Shore Limited",
+        "en:Essex County, Massachusetts",
+        "en:Winthrop, Massachusetts",
+        "en:Revere, Massachusetts",
+        "en:Quincy, Massachusetts",
+        "en:Green_Line_\"B\"_Branch",
+        "en:Providence/Stoughton Line",
+        "en:Brookline, Massachusetts",
+        "en:Acela Express",
+        "en:Somerville, Massachusetts",
+        "en:CapeFlyer",
+        "en:United States",
+        "en:Interstate 90",
+        "en:Bowdoin (MBTA station)",
+        "en:Brigham and Women's Hospital",
+        "en:Weymouth, Massachusetts",
+        "en:Green_Line_\"E\"_Branch",
+        "en:Massachusetts_Route_128",
+        "en:Franklin Line",
+        "en:Fairmount Line",
+        "en:Green_Line_\"C\"_Branch",
+        "John Quincy Adams",
+        "en:Fitchburg Line",
+        "en:Massachusetts_Route_2",
+        "en:Massachusetts_Route_3",
+        "en:Massachusetts College of Art and Design",
+        "en:MBTA Commuter Rail",
+        "en:Wentworth Institute of Technology",
+        "en:Framingham/Worcester Line",
+        "en:Old Colony Lines (MBTA)",
+        "en:Arlington,_Massachusetts",
+        "en:Belmont, Massachusetts",
+        "en:Boston_Park_Plaza_Hotel_%26_Towers",
+        "en:Boston",
+        "en:Wheelock College",
+        "en:Norfolk County, Massachusetts",
+        "en:Massachusetts",
+        "en:Newton,_Massachusetts",
+        "en:Needham, Massachusetts",
+        "en:Museum of Fine Arts, Boston",
+        "en:Massachusetts College of Pharmacy and Health Science",
+        "en:Cambridge, Massachusetts",
+        "en:Everett, Massachusetts",
+        "en:U.S. Route 3",
+        "en:Harvard University",
+        "en:East Coast Greenway",
+        "en:Allston\u2013Brighton",
+        "en:Beth Israel Deaconess Medical Center",
+        "en:Nahant, Massachusetts",
+        "en:Plymouth County, Massachusetts",
+        "en:Green_Line_\"D\"_Branch",
+        "en:Needham Line",
+        "en:Blue Line (MBTA)",
+        "en:Braintree, Massachusetts",
+        "en:Greenbush Line",
+        "John Adams",
+        "en:Massachusetts_Route_138",
+        "en:Red Line (MBTA)",
+        "en:Somerville_Community_Path",
+        "en:Medford, Massachusetts",
+        "en:Massachusetts Turnpike",
+        "en:Middlesex County, Massachusetts",
+        "en:Boston_Medical_Center",
+        "en:Harvard Medical School",
+        "en:Chelsea, Massachusetts",
+        "en: Back Bay, Boston",
+        "en:U.S. Route 20 in Massachusetts",
+        "en:Interstate 93 in Massachusetts",
+        "en:Orange Line (MBTA)",
+        "en:Suffolk County, Massachusetts"
+      ],
+      "wikipedia:en" : [
+        "Westwood, Massachusetts"
+      ]
+    }
+  }
+}

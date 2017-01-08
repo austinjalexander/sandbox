@@ -1,0 +1,427 @@
+~~~~~~~~~~~~~~~ QUANDL DATA ~~~~~~~~~~~~~~~
+
+8/17/2015
+
+k = 8
+Open 418.34
+High 354.1
+Low 466.24
+Close 389.54
+Volume 5.8
+50dravg 258.58
+200dravg 102.09
+OC% 511.4
+HL% 1045.94
+
+GaussianNB()
+0.872644171087
+
+confusion matrix:
+     FALSE   TRUE
+FALSE [15358   302] 
+TRUE  [1955  107]
+
+             precision    recall  f1-score   support
+
+          0       0.89      0.98      0.93     15660
+          1       0.26      0.05      0.09      2062
+
+avg / total       0.81      0.87      0.83     17722
+
+
+minutes for learner to run: 0.001
+
+DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+            max_features=None, max_leaf_nodes=None, min_samples_leaf=1,
+            min_samples_split=2, min_weight_fraction_leaf=0.0,
+            random_state=None, splitter='best')
+0.792292066358
+
+confusion matrix:
+     FALSE   TRUE
+FALSE [13697  1963] 
+TRUE  [1718  344]
+
+             precision    recall  f1-score   support
+
+          0       0.89      0.87      0.88     15660
+          1       0.15      0.17      0.16      2062
+
+avg / total       0.80      0.79      0.80     17722
+
+
+minutes for learner to run: 0.024
+
+SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0, degree=3, gamma=0.0,
+  kernel='rbf', max_iter=-1, probability=False, random_state=None,
+  shrinking=True, tol=0.001, verbose=False)
+0.884437422413
+
+confusion matrix:
+     FALSE   TRUE
+FALSE [15658     2] 
+TRUE  [2046   16]
+
+             precision    recall  f1-score   support
+
+          0       0.88      1.00      0.94     15660
+          1       0.89      0.01      0.02      2062
+
+avg / total       0.88      0.88      0.83     17722
+
+
+minutes for learner to run: 5.447
+
+LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+          intercept_scaling=1, max_iter=100, multi_class='ovr',
+          penalty='l2', random_state=None, solver='liblinear', tol=0.0001,
+          verbose=0)
+0.883760297935
+
+confusion matrix:
+     FALSE   TRUE
+FALSE [15641    19] 
+TRUE  [2041   21]
+
+             precision    recall  f1-score   support
+
+          0       0.88      1.00      0.94     15660
+          1       0.53      0.01      0.02      2062
+
+avg / total       0.84      0.88      0.83     17722
+
+
+minutes for learner to run: 5.451
+
+-----------------------------
+
+k = 4
+Open 418.34
+High 354.1
+Low 466.24
+Close 389.54
+Volume 5.8
+50dravg 258.58
+200dravg 102.09
+OC% 511.4
+HL% 1045.94
+
+GaussianNB()
+0.874111274123
+
+confusion matrix:
+     FALSE   TRUE
+FALSE [15394   266] 
+TRUE  [1965   97]
+
+             precision    recall  f1-score   support
+
+          0       0.89      0.98      0.93     15660
+          1       0.27      0.05      0.08      2062
+
+avg / total       0.81      0.87      0.83     17722
+
+
+minutes for learner to run: 0.001
+
+DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+            max_features=None, max_leaf_nodes=None, min_samples_leaf=1,
+            min_samples_split=2, min_weight_fraction_leaf=0.0,
+            random_state=None, splitter='best')
+0.813790768536
+
+confusion matrix:
+     FALSE   TRUE
+FALSE [14146  1514] 
+TRUE  [1786  276]
+
+             precision    recall  f1-score   support
+
+          0       0.89      0.90      0.90     15660
+          1       0.15      0.13      0.14      2062
+
+avg / total       0.80      0.81      0.81     17722
+
+
+minutes for learner to run: 0.012
+
+SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0, degree=3, gamma=0.0,
+  kernel='rbf', max_iter=-1, probability=False, random_state=None,
+  shrinking=True, tol=0.001, verbose=False)
+0.884380995373
+
+confusion matrix:
+     FALSE   TRUE
+FALSE [15659     1] 
+TRUE  [2048   14]
+
+             precision    recall  f1-score   support
+
+          0       0.88      1.00      0.94     15660
+          1       0.93      0.01      0.01      2062
+
+avg / total       0.89      0.88      0.83     17722
+
+
+minutes for learner to run: 1.744
+
+LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+          intercept_scaling=1, max_iter=100, multi_class='ovr',
+          penalty='l2', random_state=None, solver='liblinear', tol=0.0001,
+          verbose=0)
+0.883703870895
+
+confusion matrix:
+     FALSE   TRUE
+FALSE [15641    19] 
+TRUE  [2042   20]
+
+             precision    recall  f1-score   support
+
+          0       0.88      1.00      0.94     15660
+          1       0.51      0.01      0.02      2062
+
+avg / total       0.84      0.88      0.83     17722
+
+
+minutes for learner to run: 1.747
+
+---------------------------------
+
+k = 3
+Open 418.34
+High 354.1
+Low 466.24
+Close 389.54
+Volume 5.8
+50dravg 258.58
+200dravg 102.09
+OC% 511.4
+HL% 1045.94
+
+GaussianNB()
+0.874393409322
+
+confusion matrix:
+     FALSE   TRUE
+FALSE [15399   261] 
+TRUE  [1965   97]
+
+             precision    recall  f1-score   support
+
+          0       0.89      0.98      0.93     15660
+          1       0.27      0.05      0.08      2062
+
+avg / total       0.82      0.87      0.83     17722
+
+
+minutes for learner to run: 0.001
+
+DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+            max_features=None, max_leaf_nodes=None, min_samples_leaf=1,
+            min_samples_split=2, min_weight_fraction_leaf=0.0,
+            random_state=None, splitter='best')
+0.80905089719
+
+confusion matrix:
+     FALSE   TRUE
+FALSE [14076  1584] 
+TRUE  [1800  262]
+
+             precision    recall  f1-score   support
+
+          0       0.89      0.90      0.89     15660
+          1       0.14      0.13      0.13      2062
+
+avg / total       0.80      0.81      0.80     17722
+
+
+minutes for learner to run: 0.009
+
+SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0, degree=3, gamma=0.0,
+  kernel='rbf', max_iter=-1, probability=False, random_state=None,
+  shrinking=True, tol=0.001, verbose=False)
+0.884380995373
+
+confusion matrix:
+     FALSE   TRUE
+FALSE [15659     1] 
+TRUE  [2048   14]
+
+             precision    recall  f1-score   support
+
+          0       0.88      1.00      0.94     15660
+          1       0.93      0.01      0.01      2062
+
+avg / total       0.89      0.88      0.83     17722
+
+
+minutes for learner to run: 1.375
+
+LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+          intercept_scaling=1, max_iter=100, multi_class='ovr',
+          penalty='l2', random_state=None, solver='liblinear', tol=0.0001,
+          verbose=0)
+0.883703870895
+
+confusion matrix:
+     FALSE   TRUE
+FALSE [15642    18] 
+TRUE  [2043   19]
+
+             precision    recall  f1-score   support
+
+          0       0.88      1.00      0.94     15660
+          1       0.51      0.01      0.02      2062
+
+avg / total       0.84      0.88      0.83     17722
+
+
+minutes for learner to run: 1.377
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+==================================================================
+
+Pipeline(steps=[('gaussiannb', GaussianNB())])
+
+score:  0.796173913043
+
+confusion matrix:
+     FALSE   TRUE
+FALSE [15750  2293] 
+TRUE  [1466  615]
+
+             precision    recall  f1-score   support
+
+          0       0.91      0.87      0.89     18043
+          1       0.21      0.30      0.25      2081
+
+avg / total       0.84      0.81      0.83     20124
+
+
+price data normalized: False
+
+volume scaled: False
+
+binarized: True
+
+k = 8
+
+PCA: False
+
+minutes for learner to run: 0.004
+
+==================================================================
+
+Pipeline(steps=[('gaussiannb', GaussianNB())])
+
+score:  0.655403726708
+
+confusion matrix:
+     FALSE   TRUE
+FALSE [11790  6253] 
+TRUE  [ 829 1252]
+
+             precision    recall  f1-score   support
+
+          0       0.93      0.65      0.77     18043
+          1       0.17      0.60      0.26      2081
+
+avg / total       0.85      0.65      0.72     20124
+
+
+price data normalized: False
+
+volume scaled: False
+
+binarized: True
+
+k = 7
+
+PCA: False
+
+minutes for learner to run: 0.003
+
+==================================================================
+
+Pipeline(steps=[('gaussiannb', GaussianNB())])
+
+score:  0.612819875776
+
+confusion matrix:
+     FALSE   TRUE
+FALSE [11069  6974] 
+TRUE  [ 748 1333]
+
+             precision    recall  f1-score   support
+
+          0       0.94      0.61      0.74     18043
+          1       0.16      0.64      0.26      2081
+
+avg / total       0.86      0.62      0.69     20124
+
+
+price data normalized: False
+
+volume scaled: False
+
+binarized: True
+
+k = 5
+
+PCA: False
+
+minutes for learner to run: 0.004
+
+==================================================================  
+
+Pipeline(steps=[('gaussiannb', GaussianNB())])
+
+score:  0.570956521739
+
+confusion matrix:
+     FALSE   TRUE
+FALSE [10133  7910] 
+TRUE  [ 654 1427]
+
+             precision    recall  f1-score   support
+
+          0       0.94      0.56      0.70     18043
+          1       0.15      0.69      0.25      2081
+
+avg / total       0.86      0.57      0.66     20124
+
+
+price data normalized: False
+
+volume scaled: False
+
+binarized: True
+
+k = 6
+
+PCA: False
+
+minutes for learner to run: 0.004
+
+
+

@@ -1,0 +1,105 @@
+
+
+ ~~~~~~~~~~~~~~~ GOOGLE DATA ~~~~~~~~~~~~~~~
+
+GaussianNB
+## ------- skb (k=2) -------
+[0] ARNA 0
+[1] ATNM 0
+[2] AVXL 1
+[3] AXN 0
+[4] BLFS 0
+[5] BOTA 0
+[6] CBLI 0
+[7] CPRX 0
+[8] DARA 0
+[9] ECYT 0
+[10] EDAP 0
+[11] EXAS 0
+[12] HALO 0
+[13] IDRA 0
+[14] INO 1
+[15] LOXO 0
+[16] LPCN 0
+[17] MEIP 0
+[18] MNKD 0
+[19] OREX 0
+[20] PGNX 0
+[21] QLTI 0
+[22] RMTI 0
+[23] SGYP 0
+[24] SNGX 0
+[25] SPY 0
+[26] SYN 0
+[27] TENX 0
+[28] THLD 0
+[29] TNXP 0
+[30] TPIV 0
+## ------- skb (k=5) -------
+[0] ARNA 0
+[1] ATNM 0
+[2] AVXL 1
+[3] AXN 0
+[4] BLFS 0
+[5] BOTA 0
+[6] CBLI 0
+[7] CPRX 0
+[8] DARA 0
+[9] ECYT 0
+[10] EDAP 0
+[11] EXAS 0
+[12] HALO 0
+[13] IDRA 0
+[14] INO 0
+[15] LOXO 0
+[16] LPCN 0
+[17] MEIP 0
+[18] MNKD 0
+[19] OREX 0
+[20] PGNX 0
+[21] QLTI 0
+[22] RMTI 0
+[23] SGYP 0
+[24] SNGX 0
+[25] SPY 0
+[26] SYN 0
+[27] TENX 0
+[28] THLD 0
+[29] TNXP 0
+[30] TPIV 0
+
+
+DecisionTreeClassifier
+## ------- skb (k=5) -------
+[0] ARNA 0
+[1] ATNM 0
+[2] AVXL 1
+[3] AXN 0
+[4] BLFS 0
+[5] BOTA 0
+[6] CBLI 0
+[7] CPRX 0
+[8] DARA 0
+[9] ECYT 0
+[10] EDAP 0
+[11] EXAS 0
+[12] HALO 0
+[13] IDRA 0
+[14] INO 0
+[15] LOXO 1
+[16] LPCN 0
+[17] MEIP 0
+[18] MNKD 0
+[19] OREX 0
+[20] PGNX 0
+[21] QLTI 0
+[22] RMTI 0
+[23] SGYP 0
+[24] SNGX 1
+[25] SPY 0
+[26] SYN 0
+[27] TENX 0
+[28] THLD 0
+[29] TNXP 0
+[30] TPIV 0
+

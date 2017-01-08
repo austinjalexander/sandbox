@@ -1,0 +1,2 @@
+/Users/excalibur/py/odsc/caffe/hdf5_classification/data/train.h5
+/Users/excalibur/py/odsc/caffe/hdf5_classification/data/train.h5

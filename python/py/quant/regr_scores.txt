@@ -1,0 +1,27 @@
+~~~~~~~~~~~~~~~ QUANDL DATA ~~~~~~~~~~~~~~~
+
+
+Pipeline(steps=[('linearregression', LinearRegression(copy_X=True, fit_intercept=True, n_jobs=1, normalize=False))])
+
+score:  0.000399819231624
+
+price data normalized: False
+
+volume scaled: False
+
+binarized: False
+
+k = 1
+
+PCA: False
+
+minutes for learner to run: 0.004
+
+============================================================= 
+
+
+
+
+
+
+

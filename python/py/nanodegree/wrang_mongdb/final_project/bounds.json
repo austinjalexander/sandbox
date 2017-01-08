@@ -1,0 +1,21 @@
+{
+  "attributes" : {
+    "bounds" : {
+      "maxlat" : [
+        "42.39900"
+      ],
+      "maxlon" : [
+        "-70.92300"
+      ],
+      "minlat" : [
+        "42.22800"
+      ],
+      "minlon" : [
+        "-71.19100"
+      ],
+      "origin" : [
+        "http://www.openstreetmap.org/api/0.6"
+      ]
+    }
+  }
+}

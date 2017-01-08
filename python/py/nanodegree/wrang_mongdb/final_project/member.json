@@ -1,0 +1,67 @@
+{
+  "attributes" : {
+    "member" : {
+      "ref" : [
+        "296172",
+        "8615818",
+        "61317423",
+        "1039904367",
+        "115591269",
+        "61315"
+      ],
+      "role" : [
+        "",
+        "bridge",
+        "via",
+        "associated",
+        "house",
+        "address",
+        "outer",
+        "street",
+        "platform_entry_only",
+        "stop_forward",
+        "from",
+        "platform",
+        "ways",
+        "west",
+        "support",
+        "label",
+        "to",
+        "station",
+        "inner",
+        "under",
+        "forward",
+        "east",
+        "across",
+        "stop_entry_only",
+        "stop_backward",
+        "entrance",
+        "north",
+        "admin_centre",
+        "inbound",
+        "end",
+        "stop",
+        "part",
+        "location_hint",
+        "inbound_platform",
+        "outbound",
+        "pier",
+        "sidewalk",
+        "building",
+        "outbound_platform",
+        "outline",
+        "subarea",
+        "abutment",
+        "tomb",
+        "backward",
+        "route",
+        "south"
+      ],
+      "type" : [
+        "node",
+        "relation",
+        "way"
+      ]
+    }
+  }
+}
