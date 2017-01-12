@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Array Cardio 💪</title>
+</head>
+<body>
+	<script>
+		const person = {
+			name: 'Wes',
+			age: 28
+		}
+
+		person.age = 29;
+
+		const wes = Object.freeze(person);
+
+		// wes.age = 29; // won't blow up, but won't update either
+	</script>
+</body>
+</html>
