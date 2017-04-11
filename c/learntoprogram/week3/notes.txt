@@ -1,0 +1,125 @@
+// MEMORY --> a variable name is a human-understandable symbol/reference to a location in the computer's memory
+
+// others, but these will do
+// related to sizes in memory, but dont need to know now
+
+// int declarations 
+// while and for loops
+// maybe have to declare int i before for loop epxression
+
+//tolower()  <ctype.h>
+
+// temperature conversion
+
+// c = getchar();
+// while ( c != EOF) {
+//   putchar(c);
+//	 c = getchar();
+// }
+
+/*
+void output(char string) {
+	
+}
+
+
+*/
+
+// while ((c = getchar()) != EOF)
+
+// $ prog <infile
+
+// $ prog >outfile
+
+// nc++
+// ++nc
+
+// printf uses %f for both float and double
+// printf("%s.0f\n", nc);
+
+// assignment, arithmetic, comparison, logical operators; precedence
+
+// line counting using if c == '\n'
+// word counting
+
+// always initialize variables
+
+// constants
+
+// naming variables, look up the languages reserved words
+
+// for, while, do-while
+
+// switch-case
+
+// nl = nw = nc = 0;
+
+// if (c == ' ' || c == '\n' || c == '\t')
+
+// use file input from somehting he wrote
+
+// if, else if,  else
+
+// int digit_array[];
+
+// use of chars in arithmetic expressions and to get different chars
+
+// you must appreciate that computers only do what you ask them to do
+
+// functions as repeatable code, but unlike loops
+// printf is a fnction
+
+// parameter vs argument
+
+// main as a function, explain return, and return value -1 (or whatever) vs 0
+
+// function prototypes, reason for them
+
+// one of the benefits of compiling is for catching errors
+// your javascript or ruby code might run fine when you're using it, 
+// but unless you write EXTENSIVE tests, and even with those
+
+// pass-by value functions first, showing the need for pass-by-reference
+//pass-by-value is a sensible default
+
+// arrays are pass-by-reference
+
+// character array, null character \0
+// scope
+
+// java array: double[] a = new double[N];
+
+///////
+var rm 
+
+NaN
+
+rm == "hey"
+
+"hey".length
+
+"c" + "a" === 'CA'
+
+'cat'.toUpperCase()
+
+var empty_object = {};
+
+var flight = {
+	airline: "Oceanic",
+	number: 815
+}
+
+flight.airline
+
+flight.airline = "Jimmy";
+
+objects passed by reference, never copied
+
+flight.arrival_time = "9:00am";
+
+var x = flight;
+x.airline;
+x.airline = "Bob";
+var y = flight.airline;
+
+//////

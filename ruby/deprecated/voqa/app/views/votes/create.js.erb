@@ -1,0 +1,10 @@
+$("#vote_value-<%= @vote.answer_id %>").html("<%= @value %>")
+
+$("#up_vote_div-<%= @vote.answer_id %>").html("<%= escape_javascript(render(partial: 'shared/vote', locals: { answer: Answer.find(@vote.answer_id), vote_value: 1 })) %>");
+
+$("#down_vote_div-<%= @vote.answer_id %>").html("<%= escape_javascript(render(partial: 'shared/vote', locals: { answer: Answer.find(@vote.answer_id), vote_value: -1 })) %>");
+
+$("#vote_count-<%= @vote.answer_id %>").html("<%= @votes.count %>");
+
+$("#answers").html("<%= escape_javascript(render(partial: 'shared/answers')) %>");
+

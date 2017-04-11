@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <title>VOQA</title>
+  <meta name='viewport' content="width=device-width, initial-scale=1">
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+  <!--[if lt IE 9]>
+      <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/r29/html5.min.js">
+      </script>
+  <![endif]-->
+</head>
+<body>
+
+<!-- wrapper for everything -->
+  <div id="wrapper">
+
+    <!-- sidebar (only if signed in) -->
+    <% if user_signed_in? && (params[:controller] == 'questions') %>
+      <%= render 'shared/sidebar' %>
+    <% end %>
+    <!-- end: sidebar -->
+
+    <!-- container -->
+    <div id="container" class='container-fluid'>
+
+      <!-- content -->
+      <div id="content" class='row'>
+
+        <!-- logo -->
+        <% col_settings = params[:controller] == 'questions' ? " col-xs-8 col-sm-9 col-xs-offset-4 col-sm-offset-3" : "" %>
+        <%= render partial: 'shared/logo', locals: { non_welcome_col_settings: col_settings } %>
+        <!-- end: logo -->
+
+        <%= yield %>
+      </div>
+      <!-- end: content -->
+    </div>
+    <!-- end: container -->
+
+    <!-- alert -->
+    <% if flash[:notice] %>
+      <div class="alert alert-info text-center<%= col_settings %>" role="alert">
+        <%= notice %>
+      </div>
+    <% end %>
+    
+    <% if flash[:alert] %>
+      <div class="alert alert-danger text-center<%= col_settings %>" role="alert">
+        <%= alert %>
+        <button type="button" class="close" data-dismiss="alert">
+          <span aria-hidden="true">&times;</span>
+          <span class="sr-only">Close</span>
+        </button>
+      </div>
+    <% end %>
+    <!-- end: alert -->
+
+    <!-- footer -->
+    <% if (current_page? root_path) || (current_page? about_path) %>
+      <%= render 'shared/footer' %>
+    <% end %>
+    <!-- end: footer -->
+
+  </div>
+  <!-- end: wrapper -->
+
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+</body>
+</html>

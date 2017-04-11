@@ -1,0 +1,7 @@
+$("#questions").html("<%= escape_javascript(render 'shared/questions') %>");
+
+$("#question_title").val('');
+$("#question_content").val('');
+
+$("#q_count").html("<%= current_user_question_count %>");
+

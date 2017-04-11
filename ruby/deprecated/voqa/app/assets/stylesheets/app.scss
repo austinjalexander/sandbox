@@ -1,0 +1,199 @@
+// FOR BOOTSTRAP
+@import 'bootstrap-sprockets';
+@import 'bootstrap';
+
+// LAYOUTS
+html, body, #main, #sidebar, #questions {
+  height: 100%;
+}
+
+* {
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+// CONTENT
+#content {
+  position: relative;
+  top: 60px;
+}
+
+// FOOTER
+footer {
+  //box-shadow: inset 0.3em 0.3em 0.9em #000;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+  background-color: #28333B;
+  text-align: center;
+
+  nav {
+    width: 60%;
+    margin: auto;
+    margin-top: 30px;
+    @media (max-width: $screen-xs-min) {
+      font-size: 12px;
+    }
+
+    a:link, a:visited {
+      color: #FFF;
+      margin: 10%;
+      @media (max-width: 1040px) {
+        margin: 5%;
+      }
+    }
+    a:hover {
+      color: #FFF;
+      text-decoration: none;
+      margin: 10%;
+      @media (max-width: 1040px) {
+        margin: 5%;
+      }
+    }
+    a:active {
+      color: #FFF;
+      margin: 10%;
+      @media (max-width: 1040px) {
+        margin: 5%;
+      }
+    }
+  }
+
+  aside {
+    margin-top: 20px;
+    color: #FFF;
+    font-size: 10px;
+  }
+}
+
+// WELCOME
+.tagline {
+  margin-top: 180px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.tagline_sub {
+  margin-top: 10px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  @media (max-width: $screen-xs-min) {
+    font-size: 12px;
+  }
+}
+
+.welcome_buttons {
+  margin: 20px;
+  margin-top: 100px;
+}
+
+// ALERTS
+.alert {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  z-index: 99999;
+}
+
+// LOGO
+#voqa-logo {
+  width: 100% \9;
+  height: 80px;
+}
+
+// SIGNUPINEDIT
+.account_form, .edit_form {
+  position: relative;
+  top: 60px;
+}
+
+// SIDEBAR
+#sidebar {
+  background-color: white;
+  color: black;
+  text-align: center;
+  position: fixed;
+
+  #grav_name {
+    margin: 20px 0px 0px 5px;
+    color: black;
+    text-align: center;
+
+    h1 {
+      font-size: 2vw;
+      @media (max-width: $screen-xs-min) {
+        font-size: 3vw;
+      }
+    }
+  }
+
+  #ask_button {
+    width: 100px;
+  }
+
+  a:link, a:visited, a:hover, a:active  {
+    color: black;
+    text-decoration: none;
+  }
+
+  .qa {
+    font-size: 1.5vw;
+    @media (max-width: $screen-xs-max) {
+      font-size: 2.5vw;
+    }
+    @media (max-width: $screen-xs-min) {
+      font-size: 3.5vw;
+    }
+  }
+
+  .qa_count {
+    @media (max-width: $screen-xs-max) {
+      display: none;
+    }
+  }
+
+}
+
+// BLUE FORM BORDER
+input {
+  border: 0;
+  outline: none;
+}
+
+
+///////
+
+.field_with_errors {
+  padding: 2px;
+  background-color: red;
+  display: table;
+}
+
+// chrome ugly yellow form fields; thanks: https://medium.com/@landonschropp/styling-autocompleted-inputs-in-chrome-and-safari-de83d7bd1d8a
+input:-webkit-autofill, input:-webkit-autofill:focus {
+  box-shadow: 0 0 0 1000px white inset;
+  -webkit-text-fill-color: #333;
+}
+
+#error_explanation {
+  width: 450px;
+  border: 2px solid red;
+  padding: 7px;
+  padding-bottom: 0;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+  h2 {
+    text-align: left;
+    font-weight: bold;
+    padding: 5px 5px 5px 15px;
+    font-size: 12px;
+    margin: -7px;
+    margin-bottom: 0px;
+    background-color: #c00;
+    color: #fff;
+  }
+  ul li {
+    font-size: 12px;
+    list-style: square;
+  }
+}

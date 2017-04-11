@@ -1,0 +1,589 @@
+BosroulUser.bosroul_user_id BosroulUser.email                                                                                                                                                                                                                                                                                                                Suggestion.name    
+--------------------------- -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- --------------------
+                          5 non.dapibus.rutrum@eleifendnon.org                                                                                                                                                                                                                                                                                               cursus et,           
+                          7 libero@etcommodoat.co.uk                                                                                                                                                                                                                                                                                                         mattis velit         
+                          8 Nam.interdum.enim@nonummy.org                                                                                                                                                                                                                                                                                                    tellus non           
+                         12 natoque.penatibus.et@egestaslacinia.co.uk                                                                                                                                                                                                                                                                                        pellentesque,        
+                         16 In.tincidunt.congue@enimsitamet.edu                                                                                                                                                                                                                                                                                              per conubia          
+                         16 In.tincidunt.congue@enimsitamet.edu                                                                                                                                                                                                                                                                                              consectetuer         
+                         17 ipsum.leo@Curabiturdictum.co.uk                                                                                                                                                                                                                                                                                                  imperdiet nec,       
+                         17 ipsum.leo@Curabiturdictum.co.uk                                                                                                                                                                                                                                                                                                  accumsan             
+                         18 iaculis@ipsumcursusvestibulum.org                                                                                                                                                                                                                                                                                                Cum sociis           
+                         20 non.enim@adipiscing.net                                                                                                                                                                                                                                                                                                          Quisque ornare       
+                         21 mollis.Integer.tincidunt@Pellentesquetincidunt.co.uk                                                                                                                                                                                                                                                                             facilisis facilisis, 
+                         21 mollis.Integer.tincidunt@Pellentesquetincidunt.co.uk                                                                                                                                                                                                                                                                             Mauris vestibulum,   
+                         22 lobortis@Proin.edu                                                                                                                                                                                                                                                                                                               eu lacus.            
+                         22 lobortis@Proin.edu                                                                                                                                                                                                                                                                                                               nec quam.            
+                         22 lobortis@Proin.edu                                                                                                                                                                                                                                                                                                               nibh.                
+                         22 lobortis@Proin.edu                                                                                                                                                                                                                                                                                                               posuere              
+                         23 tincidunt.nunc@non.net                                                                                                                                                                                                                                                                                                           sed dui.             
+                         23 tincidunt.nunc@non.net                                                                                                                                                                                                                                                                                                           a tortor.            
+                         23 tincidunt.nunc@non.net                                                                                                                                                                                                                                                                                                           tempus, lorem        
+                         24 amet@Integervulputaterisus.co.uk                                                                                                                                                                                                                                                                                                 fringilla            
+                         27 magna@Maurisvel.org                                                                                                                                                                                                                                                                                                              lobortis augue       
+                         28 ac.turpis@volutpatNulla.ca                                                                                                                                                                                                                                                                                                       Nam tempor           
+                         28 ac.turpis@volutpatNulla.ca                                                                                                                                                                                                                                                                                                       vulputate, risus     
+                         29 molestie.orci.tincidunt@diamluctus.edu                                                                                                                                                                                                                                                                                           vitae,               
+                         30 auctor.vitae@sapienCrasdolor.com                                                                                                                                                                                                                                                                                                 faucibus orci        
+                         31 convallis@vitaealiquetnec.org                                                                                                                                                                                                                                                                                                    pede                 
+                         33 fringilla.Donec.feugiat@arcuSedeu.co.uk                                                                                                                                                                                                                                                                                          Quisque              
+                         33 fringilla.Donec.feugiat@arcuSedeu.co.uk                                                                                                                                                                                                                                                                                          Nam                  
+                         36 quis.lectus.Nullam@tristiquepharetra.org                                                                                                                                                                                                                                                                                         magnis dis           
+                         37 vehicula@sodales.co.uk                                                                                                                                                                                                                                                                                                           Mauris               
+                         37 vehicula@sodales.co.uk                                                                                                                                                                                                                                                                                                           leo, in              
+                         41 Duis.a.mi@dui.org                                                                                                                                                                                                                                                                                                                Aliquam              
+                         41 Duis.a.mi@dui.org                                                                                                                                                                                                                                                                                                                elementum purus,     
+                         41 Duis.a.mi@dui.org                                                                                                                                                                                                                                                                                                                vehicula risus.      
+                         42 libero.est.congue@ametmetusAliquam.edu                                                                                                                                                                                                                                                                                           erat. Etiam          
+                         44 ornare@Mauris.com                                                                                                                                                                                                                                                                                                                auctor, nunc         
+                         45 non.quam@Aliquamultricesiaculis.ca                                                                                                                                                                                                                                                                                               ultrices posuere     
+                         45 non.quam@Aliquamultricesiaculis.ca                                                                                                                                                                                                                                                                                               sed dictum           
+                         47 non.lorem@nequeNullamnisl.co.uk                                                                                                                                                                                                                                                                                                  lobortis risus.      
+                         47 non.lorem@nequeNullamnisl.co.uk                                                                                                                                                                                                                                                                                                  nibh lacinia         
+                         47 non.lorem@nequeNullamnisl.co.uk                                                                                                                                                                                                                                                                                                  gravida mauris       
+                         47 non.lorem@nequeNullamnisl.co.uk                                                                                                                                                                                                                                                                                                  Nullam               
+                         48 libero.et@sagittis.org                                                                                                                                                                                                                                                                                                           Donec egestas.       
+                         48 libero.et@sagittis.org                                                                                                                                                                                                                                                                                                           augue                
+                         49 sociis.natoque@adipiscing.net                                                                                                                                                                                                                                                                                                    tristique,           
+                         49 sociis.natoque@adipiscing.net                                                                                                                                                                                                                                                                                                    dis                  
+                         49 sociis.natoque@adipiscing.net                                                                                                                                                                                                                                                                                                    consequat            
+                         49 sociis.natoque@adipiscing.net                                                                                                                                                                                                                                                                                                    Integer              
+                         50 felis.Nulla.tempor@necmalesuadaut.co.uk                                                                                                                                                                                                                                                                                          sodales              
+                         51 hymenaeos.Mauris.ut@sitamet.com                                                                                                                                                                                                                                                                                                  Cras                 
+                         51 hymenaeos.Mauris.ut@sitamet.com                                                                                                                                                                                                                                                                                                  neque                
+                         53 Pellentesque.ultricies@sagittisNullam.net                                                                                                                                                                                                                                                                                        justo                
+                         53 Pellentesque.ultricies@sagittisNullam.net                                                                                                                                                                                                                                                                                        blandit. Nam         
+                         53 Pellentesque.ultricies@sagittisNullam.net                                                                                                                                                                                                                                                                                        augue id             
+                         55 libero.Proin@penatibus.co.uk                                                                                                                                                                                                                                                                                                     sem elit,            
+                         55 libero.Proin@penatibus.co.uk                                                                                                                                                                                                                                                                                                     massa. Quisque       
+                         55 libero.Proin@penatibus.co.uk                                                                                                                                                                                                                                                                                                     risus quis           
+                         58 metus@tellusjusto.ca                                                                                                                                                                                                                                                                                                             In                   
+                         59 eleifend@augue.net                                                                                                                                                                                                                                                                                                               ullamcorper, nisl    
+                         60 magna.Suspendisse@aliquamerosturpis.ca                                                                                                                                                                                                                                                                                           tellus. Nunc         
+                         61 dapibus.rutrum@lacusCrasinterdum.ca                                                                                                                                                                                                                                                                                              urna. Nullam         
+                         62 est.ac.facilisis@et.com                                                                                                                                                                                                                                                                                                          sodales purus,       
+                         62 est.ac.facilisis@et.com                                                                                                                                                                                                                                                                                                          auctor,              
+                         63 vel@quistristique.co.uk                                                                                                                                                                                                                                                                                                          auctor               
+                         64 iaculis.quis.pede@nonenim.edu                                                                                                                                                                                                                                                                                                    elit.                
+                         66 diam@musProin.edu                                                                                                                                                                                                                                                                                                                rutrum               
+                         66 diam@musProin.edu                                                                                                                                                                                                                                                                                                                cursus in,           
+                         68 neque.In.ornare@Crasdictumultricies.edu                                                                                                                                                                                                                                                                                          leo.                 
+                         68 neque.In.ornare@Crasdictumultricies.edu                                                                                                                                                                                                                                                                                          metus.               
+                         68 neque.In.ornare@Crasdictumultricies.edu                                                                                                                                                                                                                                                                                          risus a              
+                         68 neque.In.ornare@Crasdictumultricies.edu                                                                                                                                                                                                                                                                                          scelerisque neque    
+                         69 Sed@nectellusNunc.co.uk                                                                                                                                                                                                                                                                                                          leo.                 
+                         70 tincidunt.pede@euismodac.net                                                                                                                                                                                                                                                                                                     eu                   
+                         71 odio.auctor.vitae@loremsitamet.ca                                                                                                                                                                                                                                                                                                neque venenatis      
+                         71 odio.auctor.vitae@loremsitamet.ca                                                                                                                                                                                                                                                                                                orci,                
+                         72 cursus@imperdietullamcorper.co.uk                                                                                                                                                                                                                                                                                                Cum sociis           
+                         73 ultrices.Vivamus.rhoncus@atarcuVestibulum.com                                                                                                                                                                                                                                                                                    in                   
+                         74 purus@sitametdiam.ca                                                                                                                                                                                                                                                                                                             ante                 
+                         76 Nunc.sed@lobortis.org                                                                                                                                                                                                                                                                                                            quis, tristique      
+                         80 velit.Quisque@erat.com                                                                                                                                                                                                                                                                                                           Nam tempor           
+                         82 Quisque.porttitor@blanditNamnulla.net                                                                                                                                                                                                                                                                                            ac libero            
+                         83 et@Duisrisusodio.org                                                                                                                                                                                                                                                                                                             mauris eu            
+                         83 et@Duisrisusodio.org                                                                                                                                                                                                                                                                                                             Pellentesque ut      
+                         85 ac.risus.Morbi@cubiliaCuraeDonec.org                                                                                                                                                                                                                                                                                             placerat eget,       
+                         85 ac.risus.Morbi@cubiliaCuraeDonec.org                                                                                                                                                                                                                                                                                             Sed                  
+                         87 malesuada.fames@Nullam.edu                                                                                                                                                                                                                                                                                                       non,                 
+                         91 neque@nibh.ca                                                                                                                                                                                                                                                                                                                    elementum,           
+                         92 lorem@eleifendCras.net                                                                                                                                                                                                                                                                                                           Nulla                
+                         93 id.risus.quis@id.ca                                                                                                                                                                                                                                                                                                              dolor quam,          
+                         93 id.risus.quis@id.ca                                                                                                                                                                                                                                                                                                              rhoncus id,          
+                         94 libero.Donec@portaelit.com                                                                                                                                                                                                                                                                                                       pharetra,            
+                         94 libero.Donec@portaelit.com                                                                                                                                                                                                                                                                                                       leo. Vivamus         
+                         97 sit.amet@acmi.edu                                                                                                                                                                                                                                                                                                                mollis. Duis         
+                         97 sit.amet@acmi.edu                                                                                                                                                                                                                                                                                                                aliquet odio.        
+                         97 sit.amet@acmi.edu                                                                                                                                                                                                                                                                                                                non lorem            
+                         98 dolor@nec.org                                                                                                                                                                                                                                                                                                                    vel,                 
+                         99 dolor.tempus.non@placeratCras.ca                                                                                                                                                                                                                                                                                                 mauris.              
+                         99 dolor.tempus.non@placeratCras.ca                                                                                                                                                                                                                                                                                                 augue                
+                        100 felis.eget.varius@risusquisdiam.org                                                                                                                                                                                                                                                                                              mauris. Suspendisse  
+                        100 felis.eget.varius@risusquisdiam.org                                                                                                                                                                                                                                                                                              non enim.            
+
+ 100 rows selected 
+
+BosroulUser.bosroul_user_id NumberOfSuggestions
+--------------------------- -------------------
+                          5                   1 
+                          7                   1 
+                          8                   1 
+                         12                   1 
+                         16                   2 
+                         17                   2 
+                         18                   1 
+                         20                   1 
+                         21                   2 
+                         22                   4 
+                         23                   3 
+                         24                   1 
+                         27                   1 
+                         28                   2 
+                         29                   1 
+                         30                   1 
+                         31                   1 
+                         33                   2 
+                         36                   1 
+                         37                   2 
+                         41                   3 
+                         42                   1 
+                         44                   1 
+                         45                   2 
+                         47                   4 
+                         48                   2 
+                         49                   4 
+                         50                   1 
+                         51                   2 
+                         53                   3 
+                         55                   3 
+                         58                   1 
+                         59                   1 
+                         60                   1 
+                         61                   1 
+                         62                   2 
+                         63                   1 
+                         64                   1 
+                         66                   2 
+                         68                   4 
+                         69                   1 
+                         70                   1 
+                         71                   2 
+                         72                   1 
+                         73                   1 
+                         74                   1 
+                         76                   1 
+                         80                   1 
+                         82                   1 
+                         83                   2 
+                         85                   2 
+                         87                   1 
+                         91                   1 
+                         92                   1 
+                         93                   2 
+                         94                   2 
+                         97                   3 
+                         98                   1 
+                         99                   2 
+                        100                   2 
+
+ 60 rows selected 
+
+BosroulUser.bosroul_user_id NumberOfDecisions
+--------------------------- -----------------
+                          1                 2 
+                          2                 3 
+                          3                 1 
+                          7                 1 
+                          8                 2 
+                          9                 1 
+                         10                 1 
+                         12                 3 
+                         14                 1 
+                         15                 1 
+                         17                 1 
+                         18                 1 
+                         22                 1 
+                         26                 1 
+                         28                 1 
+                         29                 2 
+                         30                 2 
+                         32                 1 
+                         34                 2 
+                         35                 2 
+                         36                 1 
+                         37                 1 
+                         41                 3 
+                         42                 2 
+                         43                 2 
+                         44                 1 
+                         45                 1 
+                         46                 1 
+                         48                 1 
+                         50                 2 
+                         53                 1 
+                         54                 2 
+                         55                 3 
+                         56                 2 
+                         58                 1 
+                         59                 2 
+                         62                 2 
+                         63                 1 
+                         64                 1 
+                         65                 1 
+                         66                 3 
+                         67                 1 
+                         68                 1 
+                         69                 1 
+                         70                 1 
+                         71                 2 
+                         72                 1 
+                         74                 3 
+                         76                 2 
+                         77                 2 
+                         80                 3 
+                         82                 1 
+                         83                 1 
+                         85                 1 
+                         86                 1 
+                         87                 1 
+                         88                 3 
+                         89                 1 
+                         90                 3 
+                         91                 1 
+                         92                 1 
+                         93                 1 
+                         94                 1 
+                         97                 2 
+                        100                 1 
+
+ 65 rows selected 
+
+Suggestion.sugg_id Suggestion.name      DecidesOn.decision DecidesOn.bosroul_user_id
+------------------ -------------------- ------------------ -------------------------
+                 2 pede                 maybe                                     17 
+                 2 pede                 maybe                                     41 
+                 3 sodales              maybe                                     43 
+                 3 sodales              maybe                                     74 
+                 4 risus quis           maybe                                     88 
+                 6 leo, in              maybe                                     29 
+                 7 auctor, nunc         maybe                                     77 
+                 8 leo.                 maybe                                     62 
+                10 Nam tempor           maybe                                     42 
+                10 Nam tempor           maybe                                     69 
+                12 rhoncus id,          maybe                                     50 
+                13 accumsan             maybe                                      1 
+                14 magnis dis           maybe                                     90 
+                16 elit.                maybe                                      8 
+                23 Cum sociis           maybe                                     32 
+                25 nibh.                maybe                                     30 
+                27 non enim.            maybe                                     37 
+                29 sed dictum           maybe                                     71 
+                32 auctor               maybe                                     56 
+                33 Integer              maybe                                     15 
+                36 elementum purus,     maybe                                     44 
+                38 augue id             maybe                                     45 
+                38 augue id             maybe                                     87 
+                39 leo. Vivamus         maybe                                      7 
+                39 leo. Vivamus         maybe                                     43 
+                41 risus a              maybe                                     68 
+                43 nibh lacinia         maybe                                     90 
+                44 urna. Nullam         maybe                                     26 
+                44 urna. Nullam         maybe                                     48 
+                46 sed dui.             maybe                                     55 
+                50 scelerisque neque    maybe                                     91 
+                52 ultrices posuere     maybe                                     97 
+                57 cursus in,           maybe                                      9 
+                58 cursus et,           maybe                                     67 
+                59 lobortis augue       maybe                                     28 
+                62 Quisque              maybe                                     77 
+                65 ac libero            maybe                                     74 
+                71 Cum sociis           maybe                                     66 
+                72 in                   maybe                                     10 
+                72 in                   maybe                                     34 
+                76 quis, tristique      maybe                                     18 
+                81 mauris eu            maybe                                     54 
+                82 pharetra,            maybe                                     63 
+                84 faucibus orci        maybe                                    100 
+                87 leo.                 maybe                                     66 
+                92 Quisque ornare       maybe                                     93 
+
+ 46 rows selected 
+
+Suggestion.sugg_id Suggestion.name      Tags.word
+------------------ -------------------- ----------
+                 1 ante                 arcu.      
+                 1 ante                 sed,       
+                 2 pede                 Sed        
+                 2 pede                 interdum.  
+                 2 pede                 ullamcrper 
+                 3 sodales              ante       
+                 6 leo, in              mauris     
+                 8 leo.                 accumsan   
+                 8 leo.                 massa.     
+                11 vehicula risus.      Vestibulum 
+                13 accumsan             malesuada  
+                15 auctor,              sit        
+                16 elit.                porta      
+                18 neque                consectetu 
+                19 sem elit,            netus      
+                22 posuere              non        
+                23 Cum sociis           facilisis, 
+                23 Cum sociis           inceptos   
+                24 eu                   Curabitur  
+                24 eu                   tacos!     
+                25 nibh.                Integer    
+                25 nibh.                Phasellus  
+                25 nibh.                great!     
+                25 nibh.                lacus,     
+                25 nibh.                molestie   
+                26 pellentesque,        Cras       
+                26 pellentesque,        risus      
+                27 non enim.            ipsum      
+                28 fringilla            varius     
+                28 fringilla            vitae      
+                30 consectetuer         lectus.    
+                30 consectetuer         orci,      
+                32 auctor               id,        
+                33 Integer              nunc       
+                34 Pellentesque ut      at,        
+                34 Pellentesque ut      risus.     
+                36 elementum purus,     Donec      
+                37 tempus, lorem        Mauris     
+                38 augue id             eu,        
+                38 augue id             ipsum.     
+                38 augue id             vulputate  
+                40 a tortor.            euismod    
+                41 risus a              erat,      
+                41 risus a              sagittis   
+                42 sodales purus,       Morbi      
+                42 sodales purus,       enim       
+                42 sodales purus,       placerat,  
+                43 nibh lacinia         Phasellus  
+                44 urna. Nullam         Nunc       
+                44 urna. Nullam         mi.        
+                46 sed dui.             arcu       
+                46 sed dui.             magnis     
+                47 erat. Etiam          metus.     
+                47 erat. Etiam          sit        
+                48 non lorem            auctor.    
+                48 non lorem            nunc.      
+                50 scelerisque neque    imperdiet  
+                52 ultrices posuere     arcu.      
+                54 tellus non           enim.      
+                56 orci,                est.       
+                57 cursus in,           diam.      
+                58 cursus et,           Quisque    
+                58 cursus et,           magna.     
+                58 cursus et,           mi         
+                60 tellus. Nunc         et         
+                62 Quisque              cursus     
+                63 Aliquam              orci       
+                63 Aliquam              vulputate  
+                64 metus.               aliquet,   
+                65 ac libero            diam       
+                65 ac libero            ultricies  
+                65 ac libero            ut,        
+                66 Mauris vestibulum,   Ut         
+                67 vitae,               a,         
+                67 vitae,               eros       
+                68 elementum,           libero     
+                68 elementum,           netus      
+                68 elementum,           sit        
+                70 augue                placerat   
+                72 in                   dolor      
+                74 dis                  Lorem      
+                74 dis                  pretium    
+                76 quis, tristique      Quisque    
+                77 placerat eget,       non        
+                79 mauris.              neque.     
+                80 Nulla                eget       
+                82 pharetra,            magna      
+                82 pharetra,            sem,       
+                82 pharetra,            ulmcorper  
+                84 faucibus orci        consecuer, 
+                85 Mauris               pede       
+                87 leo.                 morbi      
+                90 nec quam.            risus      
+                91 ullamcorper, nisl    nibh       
+                95 mattis velit         amet       
+                95 mattis velit         magna.     
+                96 neque venenatis      non        
+                98 rutrum               eu,        
+                99 eu lacus.            justo      
+               100 facilisis facilisis, ac         
+               100 facilisis facilisis, aliquet.   
+
+ 101 rows selected 
+
+Suggestion.sugg_id Suggestion.name      VotesOn.vote
+------------------ -------------------- ------------
+                 2 pede                 go           
+                 2 pede                 go           
+                 3 sodales              no           
+                 3 sodales              no           
+                 5 massa. Quisque       go           
+                 7 auctor, nunc         no           
+                 8 leo.                 no           
+                 8 leo.                 go           
+                 8 leo.                 no           
+                 8 leo.                 no           
+                 8 leo.                 go           
+                10 Nam tempor           go           
+                10 Nam tempor           no           
+                12 rhoncus id,          no           
+                12 rhoncus id,          no           
+                12 rhoncus id,          no           
+                15 auctor,              no           
+                15 auctor,              go           
+                16 elit.                go           
+                16 elit.                go           
+                17 augue                go           
+                17 augue                go           
+                18 neque                go           
+                21 gravida mauris       go           
+                22 posuere              no           
+                23 Cum sociis           no           
+                27 non enim.            go           
+                27 non enim.            go           
+                27 non enim.            no           
+                29 sed dictum           no           
+                29 sed dictum           go           
+                30 consectetuer         go           
+                30 consectetuer         go           
+                31 Sed                  go           
+                34 Pellentesque ut      go           
+                36 elementum purus,     go           
+                37 tempus, lorem        no           
+                39 leo. Vivamus         no           
+                41 risus a              no           
+                41 risus a              go           
+                43 nibh lacinia         go           
+                43 nibh lacinia         no           
+                44 urna. Nullam         no           
+                45 dolor quam,          go           
+                46 sed dui.             no           
+                46 sed dui.             go           
+                47 erat. Etiam          no           
+                48 non lorem            no           
+                49 In                   no           
+                49 In                   go           
+                50 scelerisque neque    go           
+                51 mauris. Suspendisse  no           
+                51 mauris. Suspendisse  no           
+                52 ultrices posuere     no           
+                53 non,                 go           
+                54 tellus non           go           
+                55 imperdiet nec,       no           
+                56 orci,                no           
+                56 orci,                go           
+                57 cursus in,           go           
+                57 cursus in,           go           
+                57 cursus in,           no           
+                58 cursus et,           no           
+                60 tellus. Nunc         no           
+                62 Quisque              no           
+                62 Quisque              no           
+                62 Quisque              go           
+                62 Quisque              no           
+                63 Aliquam              go           
+                63 Aliquam              go           
+                63 Aliquam              no           
+                64 metus.               no           
+                65 ac libero            go           
+                65 ac libero            no           
+                65 ac libero            go           
+                69 aliquet odio.        no           
+                70 augue                no           
+                70 augue                no           
+                74 dis                  no           
+                74 dis                  no           
+                75 blandit. Nam         go           
+                75 blandit. Nam         no           
+                76 quis, tristique      no           
+                76 quis, tristique      no           
+                77 placerat eget,       go           
+                78 tristique,           go           
+                80 Nulla                go           
+                83 vulputate, risus     go           
+                83 vulputate, risus     go           
+                86 lobortis risus.      go           
+                86 lobortis risus.      go           
+                87 leo.                 go           
+                88 Donec egestas.       go           
+                91 ullamcorper, nisl    no           
+                92 Quisque ornare       no           
+                97 Nam tempor           no           
+                99 eu lacus.            no           
+                99 eu lacus.            no           
+                99 eu lacus.            go           
+
+ 99 rows selected 
+
+Suggestion.name      Suggestion.sugg_id NumberOfGoVotes NumberOfNoVotes
+-------------------- ------------------ --------------- ---------------
+Aliquam                              63               2               1 
+Cum sociis                           23               0               1 
+Donec egestas.                       88               1               0 
+In                                   49               1               1 
+Nam tempor                           10               1               1 
+Nam tempor                           97               0               1 
+Nulla                                80               1               0 
+Pellentesque ut                      34               1               0 
+Quisque                              62               1               3 
+Quisque ornare                       92               0               1 
+Sed                                  31               1               0 
+ac libero                            65               2               1 
+aliquet odio.                        69               0               1 
+auctor,                              15               1               1 
+auctor, nunc                          7               0               1 
+augue                                17               2               0 
+augue                                70               0               2 
+blandit. Nam                         75               1               1 
+consectetuer                         30               2               0 
+cursus et,                           58               0               1 
+cursus in,                           57               2               1 
+dis                                  74               0               2 
+dolor quam,                          45               1               0 
+elementum purus,                     36               1               0 
+elit.                                16               2               0 
+erat. Etiam                          47               0               1 
+eu lacus.                            99               1               2 
+gravida mauris                       21               1               0 
+imperdiet nec,                       55               0               1 
+leo.                                  8               2               3 
+leo.                                 87               1               0 
+leo. Vivamus                         39               0               1 
+lobortis risus.                      86               2               0 
+massa. Quisque                        5               1               0 
+mauris. Suspendisse                  51               0               2 
+metus.                               64               0               1 
+neque                                18               1               0 
+nibh lacinia                         43               1               1 
+non enim.                            27               2               1 
+non lorem                            48               0               1 
+non,                                 53               1               0 
+orci,                                56               1               1 
+pede                                  2               2               0 
+placerat eget,                       77               1               0 
+posuere                              22               0               1 
+quis, tristique                      76               0               2 
+rhoncus id,                          12               0               3 
+risus a                              41               1               1 
+scelerisque neque                    50               1               0 
+sed dictum                           29               1               1 
+sed dui.                             46               1               1 
+sodales                               3               0               2 
+tellus non                           54               1               0 
+tellus. Nunc                         60               0               1 
+tempus, lorem                        37               0               1 
+tristique,                           78               1               0 
+ullamcorper, nisl                    91               0               1 
+ultrices posuere                     52               0               1 
+urna. Nullam                         44               0               1 
+vulputate, risus                     83               2               0 
+
+ 60 rows selected 
+
+VotesOn.sugg_id VotesOn.GoCount
+--------------- ---------------
+              2               2 
+              8               2 
+             16               2 
+             17               2 
+             27               2 
+             30               2 
+             57               2 
+             63               2 
+             65               2 
+             83               2 
+             86               2 
+
+ 11 rows selected 
+
+Suggestion.name      Suggestion1.caption                                Suggestion2.caption                              
+-------------------- -------------------------------------------------- --------------------------------------------------
+Cum sociis           facilisis,                                         placerat, augue. Sed                               
+Nam tempor           Morbi                                              eleifend. Cras                                     
+augue                Donec est mauris,                                  Phasellus vitae mauris                             
+leo.                 Donec                                              luctus et ultrices                                 
+

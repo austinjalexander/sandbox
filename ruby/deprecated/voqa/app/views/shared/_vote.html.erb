@@ -1,0 +1,98 @@
+<% # get string value %>
+<% vote_type = vote_value == 1 ? "up" : "down" %>
+
+<% # don't let current users vote on their answers %>
+<% if answer.user_id == current_user.id %>
+
+    <svg version="1.1"
+         baseProfile="full"
+         width="15" height="15"
+         xmlns="http://www.w3.org/2000/svg" class="<%= vote_type %>_vote_disabled">
+      <% if vote_type == "up" %>
+        <polygon points='7.5,0 0,15 15,15' />
+        UP
+      <% elsif vote_type == "down" %>
+        <polygon points='7.5,15 0,0 15,0' />
+        DOWN
+      <% end %>
+    </svg>
+
+<% else %>
+
+  <% # check if other vote value is active for current user %>
+  <% other_vote_active = Vote.where(value: (vote_value * -1), answer_id: answer.id, user_id: current_user.id) %>
+
+  <% # check if this vote value is active for current user %>
+  <% this_vote_active = Vote.where(value: vote_value, answer_id: answer.id, user_id: current_user.id) %>
+
+  <% # if neither is active, it's a post %>
+  <% if other_vote_active.empty? && this_vote_active.empty? %>
+
+    <%= form_for @vote, 
+        html: { class: "#{vote_type}_vote_form" }, 
+        remote: true do |f| %>
+      <%= f.hidden_field :value, value: vote_value %>
+      <%= f.hidden_field :answer_id, value: answer.id %>
+      <%= button_tag(class: "vote_button", data: { disable_with: "x" }) do %>
+        <svg version="1.1"
+             baseProfile="full"
+             width="15" height="15"
+             xmlns="http://www.w3.org/2000/svg" class="<%= vote_type %>_vote">
+          <% if vote_type == "up" %>
+            <polygon points='7.5,0 0,15 15,15' />
+            UP
+          <% elsif vote_type == "down" %>
+            <polygon points='7.5,15 0,0 15,0' />
+            DOWN
+          <% end %>
+        </svg>
+      <% end %>
+    <% end %>
+
+  <% # if the other vote is active, it's a patch %>
+  <% elsif other_vote_active.present? %>
+
+    <%= form_for @vote, url: vote_path(other_vote_active.first.id), 
+        method: :patch,
+        html: { class: "#{vote_type}_vote_form" }, 
+        remote: true do |f| %>
+      <%= f.hidden_field :value, value: vote_value %>
+      <%= f.hidden_field :answer_id, value: answer.id %>
+      <%= button_tag(class: "vote_button", data: { disable_with: "x" }) do %>
+        <svg version="1.1"
+             baseProfile="full"
+             width="15" height="15"
+             xmlns="http://www.w3.org/2000/svg" class="<%= vote_type %>_vote">
+          <% if vote_type == "up" %>
+            <polygon points='7.5,0 0,15 15,15' />
+            UP
+          <% elsif vote_type == "down" %>
+            <polygon points='7.5,15 0,0 15,0' />
+            DOWN
+          <% end %>
+        </svg>
+      <% end %>
+    <% end %>
+
+  <% # if the this vote is active, just show the svg %>
+  <% elsif this_vote_active.present? %>
+
+    <svg version="1.1"
+         baseProfile="full"
+         width="15" height="15"
+         xmlns="http://www.w3.org/2000/svg" class="<%= vote_type %>_vote_active">
+      <% if vote_type == "up" %>
+        <polygon points='7.5,0 0,15 15,15' />
+        UP
+      <% elsif vote_type == "down" %>
+        <polygon points='7.5,15 0,0 15,0' />
+        DOWN
+      <% end %>
+    </svg>
+
+  <% end %>
+
+<% end %>
+
+
+

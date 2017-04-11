@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang=en>
+<head> 
+<meta charset=utf-8> 
+<title>user input</title>
+
+<script>
+
+  // in Javascript, you can create the iterator in the for-loop header
+  for (var i = 0; i < 5; i++) {
+    // notice that i can simply make the variable when i use it:
+    var integer_number = prompt("Please enter a number, then I'll double it: ");
+    document.write("<br /><br />You entered: " + integer_number);
+    document.write("<br />Your number doubled: " + integer_number * 2);
+  }
+
+  var counter = 0;
+  while (counter < 5) {
+    var integer_number = prompt("Please enter a number, then I'll double it: ");
+    document.write("<br /><br />You entered: " + integer_number);
+    document.write("<br />Your number doubled: " + integer_number * 2);
+    counter++;    
+  }
+  
+  // while i'm using a string here, often Boolean values of 
+  // true or false are used in while-loop conditions
+  var action = "continue";
+  // you can simply use != and == to compare strings in Javascript,
+  // but, remember, if something seems easier, 
+  // be careful!
+  while (action != "quit") {
+    action = prompt("Type \"quit\" to exit the program.");
+  }
+
+  // now go back and try deleting the final ) on line 11; what happens?
+  // without a compiler giving you messages, how would you know where
+  // to start looking? better start using a Javascript console;
+  // go google about it!
+
+</script>
+
+</head>
+
+<body>      
+</body>
+</html>

@@ -1,0 +1,503 @@
+Which chemical properties influence the quality of red wines?
+========================================================
+###Austin J. Alexander
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, packages}
+# Load all of the packages that you end up using
+# in your analysis in this code chunk.
+
+# Notice that the parameter "echo" was set to FALSE for this code chunk.
+# This prevents the code from displaying in the knitted HTML output.
+# You should set echo=FALSE for all code chunks in your file.
+
+#install.packages('package_name')
+
+library(ggplot2)
+library(reshape2)
+library(GGally)
+library(grid)
+library(gridExtra)
+library(dplyr)
+library(memisc)
+```
+
+```{r echo=FALSE, Load_the_Data}
+# Load the Data
+setwd('~/udacity_eda_final_project/')
+#list.files() # use this to view the files in the current directory
+reds <- read.csv('wineQualityReds.csv')
+```
+
+------
+
+## Check out the data
+
+### What is the structure of your dataset?
+There are 1,599 observations of red wines with 12 recorded features for each observation. Some of the features are related to each other 
+(e.g., those related to acidity). Quality is the only categorical feature.
+
+##### show column names
+```{r echo=FALSE}
+names(reds[,2:13])
+```
+
+##### basic stats for each column
+```{r echo=FALSE}
+summary(reds[,2:13])
+```
+
+##### check for any NaN values
+```{r echo=FALSE}
+sum(is.na(reds))
+```
+
+### What other features in the dataset do you think will help support your investigation into your feature(s) of interest?
+It was unclear what features will be useful at this point.
+
+### Did you create any new variables from existing variables in the dataset?
+No, there didn't seem to be much of a need to create new variables.
+
+##### check the distribution of quality
+```{r echo=FALSE}
+table(reds$quality)
+```
+
+As can be seen above, the vast majority of wines are scored 5 or 6.
+```{r echo=FALSE}
+# break up the quality scores into quality buckets of 2 scores each
+reds_3_4 <- subset(reds, quality == 3 | quality == 4)
+reds_5_6 <- subset(reds, quality == 5 | quality == 6)
+reds_7_8 <- subset(reds, quality == 7 | quality == 8)
+# take bottom 2 and top 2
+reds_3_4_7_8 <- merge(reds_3_4, reds_7_8, all =TRUE)
+# take bottom and top
+reds_3_8 <- subset(reds, quality == 3 | quality == 8)
+```
+
+##### proportions 
+3's and 4's
+```{r echo=FALSE}
+sum(!is.na(reds_3_4))/sum(!is.na(reds))
+```
+
+5's and 6's
+```{r echo=FALSE}
+sum(!is.na(reds_5_6))/sum(!is.na(reds))
+```
+
+7's and 8's
+```{r echo=FALSE}
+sum(!is.na(reds_7_8))/sum(!is.na(reds))
+```
+
+Scores of 5 and 6 account for over 82% percent of all scores!
+This suggests that the most useful information might be found by examining the lowest and highest scorers, but we'll save that for later.
+
+### Of the features you investigated, were there any unusual distributions? Did you perform any operations on the data to tidy, adjust, or change the form of the data? If so, why did you do this?
+None of the features seemed unusual enough to explore futher and, no, I didn't notice any need for tidying/adjusting the form of the data at this point.
+
+```{r echo=FALSE}
+# axis labels for variables
+quality_label <- "quality (score between 0 and 10)"
+alcohol_label <- "alcohol (% by volume)"
+vol_acid_label <- "volatile acidity (acetic acid - g / dm^3)"
+sulph_label <- "sulphates (potassium sulphate - g / dm3)"
+
+# function to determine label
+labelize <- function(str) {
+  if (str == 'alcohol') {
+    return(alcohol_label)
+  }
+  else if (str == 'volatile.acidity') {
+    return(vol_acid_label)
+  }
+  else if (str == 'sulphates') {
+    return(sulph_label)
+  }
+}
+```
+
+## Univariate Plots Section
+##### visualize quality
+```{r viz_quality, echo=FALSE, cache=TRUE, cache.path= 'cache/', fig.path= 'figure/'}
+ggplot(reds, aes(x=factor(quality))) +
+  geom_bar(aes(colour = factor(quality))) +
+  labs(x = quality_label)
+```
+
+**Reason for this plot:** I wanted to visualize the distribution of quality scores.
+
+**Comments:** Clearly, most wines were given mid-range scores.
+
+------
+
+## Bivariate Plots Section
+
+Examine correlations:
+```{r corrlelations, echo=FALSE, cache=TRUE, cache.path= 'cache/', fig.path= 'figure/'}
+# subset reds (arbitrarily) by index number for use in ggpairs
+ggpairs(reds[c(2,3,4,13)])
+ggpairs(reds[c(5,6,7,8,13)])
+ggpairs(reds[c(9,10,11,12,13)])
+```
+
+**Reason for these plots:** I wanted to visualize the relationship of categories to one another.
+
+**Comments:** See below.
+
+### What is/are the main feature(s) of interest in your dataset?
+Alcohol, volatile.acidity, and sulphates seem to be the features most highly correlated with quality scores as they present correlation coefficient values furthest from zero, so let's examine them further.
+
+```{r echo=FALSE}
+# helper functions
+facet_hist_grid <- function(col) {
+  ggplot(reds, aes_string(x = col)) +
+    geom_histogram(binwidth = (max(reds[col]) - min(reds[col]))/30) +
+    facet_grid(quality ~ .) +
+    labs(x = labelize(col))
+}
+```
+
+The following graphs each display the distribution of wines by one of these three categories (e.g, alcohol), but they also distinguish the distributions by quality score for the purposes of making apparent any visibly-noticeable relationship between category value (e.g., high alcohol) and quality score. 
+
+##### facet alcohol by quality
+```{r fac_alc_qual, echo=FALSE, cache=TRUE, cache.path= 'cache/', fig.path= 'figure/'}
+facet_hist_grid('alcohol')
+```
+
+##### facet volatile.acidity by quality
+```{r fac_vol_acid_qual, echo=FALSE, cache=TRUE, cache.path= 'cache/', fig.path= 'figure/'}
+facet_hist_grid('volatile.acidity')
+```
+
+##### facet sulphates by quality
+```{r fac_sulp_qual, echo=FALSE, cache=TRUE, cache.path= 'cache/', fig.path= 'figure/'}
+facet_hist_grid('sulphates')
+```
+
+**Reason for these plots:** I wanted to visualize the distribution of each of these three categories as they related to quality scores.
+
+**Comments:** See below.
+
+The plots above each seem to suggest that lower or higher values in the three categories explored (alcohol, volatile.acidity, and sulphates) each have a relationship with wine quality scores, particularly in the case of the lowest and highest scores.
+
+##### group reds by quality
+```{r echo=FALSE}
+# group reds by quality
+quality_groups <- group_by(reds, quality)
+# add means for alcohol, volatile.acidity, and sulphates
+grouped_reds <- summarise(quality_groups, 
+                alcohol_mean = mean(alcohol),
+                volatile_acid_mean = mean(volatile.acidity),
+                sulphates_mean = mean(sulphates),
+                n = n())
+grouped_reds <- arrange(grouped_reds, quality)
+```
+
+```{r echo=FALSE}
+# helper functions
+line_vs <- function(col) {
+  ggplot(grouped_reds, aes_string(x = 'quality', y = col)) + 
+    geom_line()
+}
+
+line_quantiles_vs <- function(col) {
+  ggplot(reds, aes_string(x = 'quality', y = col)) +
+    geom_point(alpha = 0.5,
+               position = position_jitter(h = 0),
+               color = 'orange') +
+    coord_trans(y = 'sqrt') +
+    geom_line(stat = 'summary', fun.y = quantile, probs = 0.1,
+              linetype = 2, color = 'blue') +
+    geom_line(stat = 'summary', fun.y = quantile, probs = 0.5,
+              color = 'blue') +
+    geom_line(stat = 'summary', fun.y = quantile, probs = 0.9,
+              linetype = 2, color = 'blue') +
+    labs(x = quality_label, y = labelize(col))
+}
+```
+
+Aside from an inexplicable dip, alcohol mean appears to be positively semi-linearly correlated with quality scores. Quantile lines show a similar story.
+
+##### quality vs alcohol mean
+```{r qual_vs_alc_mean, echo=FALSE, cache=TRUE, cache.path= 'cache/', fig.path= 'figure/'}
+line_vs('alcohol_mean')
+``` 
+
+##### quality vs alcohol with quantile lines
+```{r qual_vs_alc_quant, echo=FALSE, cache=TRUE, cache.path= 'cache/', fig.path= 'figure/'}
+line_quantiles_vs('alcohol')
+```
+
+Conversely, as the volatile.acidity mean (and each quantile) increases, quality scores decrease.
+
+##### quality vs volatile.acidity mean
+```{r qual_vs_vol_acid_mean, echo=FALSE, cache=TRUE, cache.path= 'cache/', fig.path= 'figure/'}
+line_vs('volatile_acid_mean')
+```
+
+##### quality vs volatile.acidity with quantile lines
+```{r qual_vs_vol_acid_quant, echo=FALSE, cache=TRUE, cache.path= 'cache/', fig.path= 'figure/'}
+line_quantiles_vs('volatile.acidity')
+```
+
+The sulphate relationship with quality scores mirrors the one with alcohol.
+
+##### quality vs sulphates mean
+```{r qual_vs_sulph_mean, echo=FALSE, cache=TRUE, cache.path= 'cache/', fig.path= 'figure/'}
+line_vs('sulphates_mean')
+```
+
+##### quality vs sulphates with quantile lines
+```{r qual_vs_sulph_quant, echo=FALSE, cache=TRUE, cache.path= 'cache/', fig.path= 'figure/'}
+line_quantiles_vs('sulphates')
+```
+
+**Reason for these plots:** I wanted to visualize the relationship of the average values of each category to the quality scores.
+
+**Comments:** See below.
+
+# Bivariate Analysis
+
+### Talk about some of the relationships you observed in this part of the investigation. How did the feature(s) of interest vary with other features in the dataset?
+Simply put: alcohol, volatile.acidity, and sulphates (particularly the first two) appear to have an affect of the quality scores. Alcohol will be discussed below, but, in general, the lower the volatile acidity, the higher the quality score; the inverse is true for sulphates and quality score.
+
+### Did you observe any interesting relationships between the other features (not the main feature(s) of interest)?
+I did not spend time looking at the other features because I'm focusing on answering the primary question driving this project.
+
+### What was the strongest relationship you found?
+Alcohol. Funny enough, a higher alcohol content seems to encourage a higher score.
+
+------
+
+# Multivariate Plots Section
+
+As a continuation of the exploration of the three categories above, the boxplots below show in clear visible terms that the average category value (e.g., alcohol) is nicely correlated in each case with quality scores.
+
+```{r echo=FALSE}
+# helper functions
+box_quality_vs <- function(col) {
+  ggplot(reds, aes_string(y = col)) +
+    geom_boxplot(aes(x = factor(quality), fill=factor(quality))) +
+    labs(x = quality_label, y = labelize(col))
+}
+
+facet_vs <- function(col1, col2) {
+  ggplot(reds, aes_string(x = col1, y = col2)) +
+    geom_point(aes(color = factor(quality))) +
+    facet_grid(. ~ quality) +
+    labs(x = labelize(col1), y = labelize(col2))
+}
+```
+
+##### boxplot of alcohol colored by quality
+```{r box_alc_qual, echo=FALSE, cache=TRUE, cache.path= 'cache/', fig.path= 'figure/'}
+box_quality_vs('alcohol')
+```
+
+##### boxplot of volatile.acidity colored by quality
+```{r box_vol_acid_qual, echo=FALSE, cache=TRUE, cache.path= 'cache/', fig.path= 'figure/'}
+box_quality_vs('volatile.acidity')
+```
+
+##### boxplot of sulphates colored by quality
+```{r box_sulph_qual, echo=FALSE, cache=TRUE, cache.path= 'cache/', fig.path= 'figure/'}
+box_quality_vs('sulphates')
+```
+
+**Reason for these plots:** I wanted to visualize the relationship of the distribution and quantile values of each category to the quality scores.
+
+**Comments:** There seems to be a definite relationship between each of these category values and the quality scores.
+
+##### alcohol vs volatile.acidity faceted by quality
+```{r alc_vs_vol_acid_qual, echo=FALSE, cache=TRUE, cache.path= 'cache/', fig.path= 'figure/'}
+facet_vs('alcohol', 'volatile.acidity')
+```
+
+##### alcohol vs sulphates faceted by quality
+```{r alc_vs_sulph_qual, echo=FALSE, cache=TRUE, cache.path= 'cache/', fig.path= 'figure/'}
+facet_vs('alcohol', 'sulphates')
+```
+
+**Reason for these plots:** I wanted to visualize the trinary relationship of the of two category values (with alcohol as a constant) and the quality scores.
+
+**Comments:** As a result of the two faceted plots above, a general observation may be made: low volatile.acidity, high sulphates, and high alcohol content appear to be related to high quality scores.
+
+```{r echo=FALSE}
+scatter_vs <- function(data, col1, col2) {
+  ggplot(data, aes_string(x = col1, y = col2)) +
+    geom_point(aes(color = factor(quality))) +
+    labs(x = labelize(col1), y = labelize(col2))
+}
+```
+
+##### alcohol vs volatile.acidity colored by quality
+```{r scat_alc_vs_vol_acid_qual, echo=FALSE, cache=TRUE, cache.path= 'cache/', fig.path= 'figure/'}
+scatter_vs(reds, 'alcohol', 'volatile.acidity')
+```
+
+##### now only 3's, 4's, 7's, and 8's
+```{r scat_alc_vs_vol_acid_qual_3478, echo=FALSE, cache=TRUE, cache.path= 'cache/', fig.path= 'figure/'}
+scatter_vs(reds_3_4_7_8, 'alcohol', 'volatile.acidity')
+```
+
+##### now only 3's and 8's
+```{r scat_alc_vs_vol_acid_qual_38, echo=FALSE, cache=TRUE, cache.path= 'cache/', fig.path= 'figure/'}
+scatter_vs(reds_3_8, 'alcohol', 'volatile.acidity')
+```
+
+##### alcohol vs sulphates
+```{r scat_alc_vs_sulph_qual, echo=FALSE, cache=TRUE, cache.path= 'cache/', fig.path= 'figure/'}
+scatter_vs(reds_3_4_7_8, 'alcohol', 'sulphates')
+```
+
+##### now only 3's and 8's
+```{r scat_alc_vs_sulph_qual_38, echo=FALSE, cache=TRUE, cache.path= 'cache/', fig.path= 'figure/'}
+scatter_vs(reds_3_8, 'alcohol', 'sulphates')
+```
+
+**Reason for these plots:** I wanted to visualize the trinary relationship of the of two category values (with alcohol as a constant) and the quality scores. In addition, I wanted to remove certain quality scores to attempt to visualize any clustering.
+
+**Comments:** I see pretty solid visual evidence of clustering, further confirming the relationship between these three categories and quality scores.
+
+##### alcohol vs volatile.acidity, colored by quality, sized by sulphates
+```{r alc_vol_acid_sulph_qual, echo=FALSE, cache=TRUE, cache.path= 'cache/', fig.path= 'figure/'}
+ggplot(reds, aes(x = alcohol, y = volatile.acidity)) + 
+  geom_point(aes(colour = factor(quality), size = sulphates), alpha = 0.7) +
+  labs(x = labelize('alcohol'), y = labelize('volatile.acidity'))
+```
+
+**Reason for this plot:** Continuing the investigation of the above plots, I wanted to attempt to visualize all four types of values.
+
+**Comments:** It's difficult to see, but there does seem to be clustering with the addition of sulphates.
+
+##### alcohol vs volatile.acidity, colored by quality, sized by sulphates, with contour lines showing overall quantity clustering
+```{r alc_vol_acid_sulph_qual_cont, echo=FALSE, cache=TRUE, cache.path= 'cache/', fig.path= 'figure/'}
+ggplot(reds, aes(x = alcohol, y = volatile.acidity)) + 
+  geom_point(aes(colour = factor(quality), size = sulphates), alpha = 0.7) +
+  geom_density2d(show_guide=FALSE) +
+  labs(x = labelize('alcohol'), y = labelize('volatile.acidity'))
+```
+
+##### alcohol vs volatile.acidity with only contour lines colored by quality showing quality clusters
+```{r alc_vol_acid_sulph_qual_col_cont, echo=FALSE, cache=TRUE, cache.path= 'cache/', fig.path= 'figure/'}
+ggplot(reds, aes(x = alcohol, y = volatile.acidity)) + 
+  geom_density2d(aes(colour = factor(quality))) +
+  labs(x = labelize('alcohol'), y = labelize('volatile.acidity'))
+```
+
+**Reason for these plots:** Continuing my investigation of clustering.
+
+**Comments:** The contour lines help to confirm visually clustering. By faceting (using colour) the contour lines by quality score, pretty obvious quality score clustering becomes apparent.
+
+# Multivariate Analysis
+
+### Talk about some of the relationships you observed in this part of the investigation. Were there features that strengthened each other in terms of looking at your feature(s) of interest?
+As my examination continued, I felt better and better about the apparent relationship between alcohol, volatile.acidity, and sulphates and quality scores.
+
+### Were there any interesting or surprising interactions between features?
+I found it interesting that sulphate levels seem to have a sweet spot when it comes to quality scores.
+
+### OPTIONAL: Did you create any models with your dataset? Discuss the strengths and limitations of your model.
+
+##### attempts at a simple linear regression model
+```{r echo=FALSE}
+m1 <- lm(quality ~ alcohol, data = reds)
+m2 <- update(m1, ~ . + volatile.acidity)
+m3 <- update(m2, ~ . + sulphates)
+m4 <- lm(quality ~ alcohol + volatile.acidity + sulphates, data = reds)
+m5 <- lm(quality ~ alcohol : volatile.acidity : sulphates, data = reds)
+m6 <- lm(quality ~ alcohol * volatile.acidity * sulphates, data = reds)
+
+mtable(m1,m2,m3,m4,m5,m6)
+```
+Since model 6 had the highest R^2 value, I tested it with some obvious extreme cases (based on what seems to have been discovered above) using only values for alcohol, volatile.acidity, and sulphates:
+
+1. A fake _good_ red was created using a high alcohol content, low volatile.acidity, and average (median) sulphates level and is expected to have a high quality score. 
+
+##### fake good red quality score prediction (95% confidence interval)
+```{r echo=FALSE}
+fake_good_red = data.frame(alcohol = max(reds$alcohol),
+                    volatile.acidity = min(reds$volatile.acidity), 
+                    sulphates = median(reds$sulphates))
+predict(m6, newdata = fake_good_red, interval="prediction", level = .95)
+```
+
+2. A fake _mid_ red was created using an average (median) alcohol content, average (median) volatile.acidity, and average (median) sulphates level and is expected to have a mid-range quality score.
+
+##### fake mid-range red quality score prediction (95% confidence interval)
+```{r echo=FALSE}
+fake_mid_red = data.frame(alcohol = median(reds$alcohol),
+                    volatile.acidity = median(reds$volatile.acidity), 
+                    sulphates = median(reds$sulphates))
+predict(m6, newdata = fake_mid_red, interval="prediction", level = .95)
+```
+
+3. A fake _bad_ red was created using a low alcohol content, high volatile.acidity, and low sulphates level and is expected to have a low quality score.
+
+##### fake bad red quality score prediction (95% confidence interval)
+```{r echo=FALSE}
+fake_bad_red = data.frame(alcohol = min(reds$alcohol),
+                    volatile.acidity = max(reds$volatile.acidity), 
+                    sulphates = min(reds$sulphates))
+predict(m6, newdata = fake_bad_red, interval="prediction", level = .95)
+```
+As should be somewhat expected from the entire investigation so far, combined with the not-too-shabby R^2 value of the simple linear regression model we selected, these predictions were spot on.   
+
+Strength of this model: it works for the obvious cases. Weakness of this model: it's unclear how robust it is.
+
+------
+
+# Final Plots and Summary
+
+### Plot One
+##### alcohol vs volatile.acidity, colored by alcohol, sized by sulphates, faceted by quality
+```{r final1, echo=FALSE, cache=TRUE, cache.path= 'cache/', fig.path= 'figure/'}
+ggplot(reds, aes(x = alcohol, y = volatile.acidity)) +
+  geom_point(aes(colour = alcohol, size = sulphates), alpha=0.7) +
+  scale_colour_gradient(low = 'blue', high = 'orange') +
+  facet_grid(. ~ quality) +
+  ggtitle('Alcohol vs Volatile.Acidity by Quality Score') +
+  labs(x = labelize('alcohol'), y = labelize('volatile.acidity'))
+```
+
+### Description One
+This plot makes it easy to see the distribution of quality scores (most are in the middle), the rightward trend of alcohol content, the downward slope of volatile.acidity, and the mid-range sweet-spot of sulphates levels all in relation to quality scoring.
+
+### Plot Two
+##### quality vs alcohol, colored by volatile.acidity, sized by sulphates, with a smoothing line
+```{r final2, echo=FALSE, cache=TRUE, cache.path= 'cache/', fig.path= 'figure/'}
+ggplot(reds, aes(x = quality, y = alcohol)) +
+  geom_point(alpha = 0.7,
+             position = position_jitter(h = 0),
+             aes(colour = volatile.acidity,
+                 size = sulphates)) +
+  scale_colour_gradient(low = 'blue', high = 'yellow') +
+  stat_smooth(method = 'lm', colour = 'green') +
+  ggtitle('Quality vs Alcohol') +
+  labs(x = labelize('quality'), y = labelize('alcohol'))
+```
+
+### Description Two
+Although alcohol and quality are swapped from their perhaps expected axis locations, the swapping, along with the smoothing line, makes it clear that as quality increases, so do alcohol content (and, thus, the reverse relationship is true). Volatile.acidity and sulphates continue to play supporting roles. 
+
+### Plot Three
+##### alcohol vs volatile.acidity with only clusters colored by quality
+```{r final3, echo=FALSE, cache=TRUE, cache.path= 'cache/', fig.path= 'figure/'}
+ggplot(reds, aes(x = alcohol, y = volatile.acidity)) + 
+  stat_density2d(aes(fill = factor(quality)), geom = 'polygon', alpha = 0.5) +
+  ggtitle('Alcohol vs Volatile.Acidity : Quality Clusters') +
+  labs(x = labelize('alcohol'), y = labelize('volatile.acidity'))
+```
+
+### Description Three
+Perhaps my favorite plot, borrowing from the experimentation with contours earlier, this plot, although leaving out sulphates, makes it clear that there are distinct clusters of quality scores that are quite obviously related to volatile.acidity and alcohol levels. If I were given a new red wine with only those two features listed, I would be very confident using merely this plot to predict the quality score (assuming the same wine experts responsible for this data set).
+
+------
+
+# Reflection
+A fruitful exercise, this project exposed two or three features of red wines that, when related to one another, seem to lead to obvious groupings. Alcohol, volatile.acidity, and sulphates (in that order) appear to affect the (perceived) quality of red wines, at least among those wine experts consulted in the making of this data set.
+
+Figuring out how to use R was the biggest difficulty for me with this project. Now that I have pretty interesting prelimary results, it would be good to attempt to collect a new sample of data to see if similar results could be found again.
+
+

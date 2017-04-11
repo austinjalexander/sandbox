@@ -1,0 +1,5 @@
+$("#answers").html("<%= escape_javascript(render 'shared/answers') %>");
+
+$("#answer_content").val('');
+
+$("#a_count").html("<%= current_user_answer_count %>");

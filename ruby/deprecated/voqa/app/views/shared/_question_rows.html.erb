@@ -1,0 +1,7 @@
+    <% @questions.each do |question| %>
+      <tr>
+        <td data-title='question'>
+          <%= link_to render(partial: 'shared/question', locals: { question: question }), question_path(question) %>
+        </td>
+      </tr>
+    <% end %>

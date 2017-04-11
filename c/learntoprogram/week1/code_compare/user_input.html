@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang=en>
+<head> 
+<meta charset=utf-8> 
+<title>user input</title>
+
+<script>
+// variables in Javascript are more flexible;
+// for example, you don't have to say what type 
+// they will be before you use them;
+// while that might seem great, it can also 
+// really mess you up; i won't get into that now,
+// but you should just remember to be careful
+
+  var integer_number = 0; 
+
+  var decimal_number = 0.0; 
+
+  var my_string = "Your Name Here";
+
+  var valid = true;
+
+  document.write("<br />hello, world - from: " + my_string);
+
+  // since we're not using the terminal,
+  // we'll get user input via popup window;
+  // this is Javascript's closest approximation 
+  // to getting input via terminal, but, in practice,
+  // you'll likely be using HTML forms for user input;
+  // we'll get into that later
+  integer_number = prompt("Please enter a number, then I'll double it:");
+
+  document.write("<br /><br />You entered: " + integer_number);
+
+  integer_number = integer_number * 2; // do some math
+
+  document.write("<br />Your number doubled: " + integer_number);
+
+</script>
+
+</head>
+
+<body>  		
+</body>
+</html>

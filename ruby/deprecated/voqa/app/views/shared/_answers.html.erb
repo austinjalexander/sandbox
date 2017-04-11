@@ -1,0 +1,86 @@
+  <div id="answers_div">
+    <h3>Answers (<%= @answers.count %>)</h3>
+      <button id="answer_button" class="btn btn-default btn-lg" type="button" data-toggle="collapse" data-target="#answer_form" aria-expanded="false" aria-controls="answer_form">
+        Post an Answer
+      </button>
+
+
+    <div class="collapse" id="answer_form" class="col-xs-6">
+      <%= form_for(@answer, remote: true) do |f| %>
+        <fieldset>
+          <% if @answer.errors.any? %>
+            <div id="error_explanation">
+              <h2><%= pluralize(@answer.errors.count, "error") %> prohibited this answer from being saved:</h2>
+
+              <ul>
+              <% @answer.errors.full_messages.each do |message| %>
+                <li><%= message %></li>
+              <% end %>
+              </ul>
+            </div>
+          <% end %>
+
+          <div class="form-group col-xs-12">
+            <%= f.text_area :content, autocomplete: "off", class: "form-control", placeholder: "content" %>
+            <%= f.hidden_field :question_id, value: @question.id %>
+          </div>
+
+          <div class="form-group col-xs-12">
+            <button id="cancel_answer" class="btn btn-danger btn-sm">Cancel</button>
+            <%= f.submit "Post", id: "answer_submit",
+                  class: "btn btn-primary btn-sm", data: { disable_with: "wait..." } %>
+          </div>
+        </fieldset>
+      <% end %>
+    </div>
+
+    <table id="table" class="table table-hover">
+    <tbody>
+      <% @answers.each do |answer| %>
+        <tr>
+          <td data-title='answer' style="vertical-align: middle;">
+
+            <div class="">
+              <div id="up_vote_div-<%= answer.id %>" class="vote_div">
+                <%= render(partial: 'shared/vote', locals: { answer: answer, vote_value: 1 }) %>
+              </div>
+
+              <div id="vote_value-<%= answer.id %>" style="font-size:1em; width: 1em;" class="text-center">
+                <%= answer.votes.sum(:value) %>
+              </div>
+              
+              <div id="down_vote_div-<%= answer.id %>" class="vote_div">
+                <%= render(partial: 'shared/vote', locals: { answer: answer, vote_value: -1 }) %>
+              </div>
+            </div>
+          </td>
+
+          <td>
+            <div class="col-sm-8">
+              <p><%= answer.content %></p>
+            </div>
+
+            <div class="col-sm-2">
+              <small>
+                <figure>
+                  <%= image_tag(gravatar_for(answer.user.email) + "?s=30", class: "img-circle small_circle", options: { alt: "#{answer.user.email} Gravatar" }) %>
+                  <figcaption><strong><%= answer.user.username %></strong></figcaption>
+                </figure>
+              </small>
+            </div>
+
+            <div class="col-sm-2">
+              <small>
+                Answered <%= time_ago_in_words(answer.created_at) %> ago
+                <br />
+                Number of votes: <span id="vote_count-<%= answer.id %>"><%= answer.votes.count %></span>
+              </small>
+            </div>
+
+          </td>
+        </tr>
+      <% end %>
+      </tbody>
+    </table>
+  </div>
+  

@@ -1,0 +1,13 @@
+<div id="questions_div">
+
+  <table id="table" class="table table-hover">
+    <tbody>
+      <%= render 'shared/question_rows' %>
+    </tbody>
+  </table>
+  <% if @questions.count > 0 %>
+    <%= will_paginate @questions %>
+  <% end %>
+
+</div>
+

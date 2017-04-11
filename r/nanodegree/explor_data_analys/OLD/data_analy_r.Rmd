@@ -1,0 +1,86 @@
+---
+title: "data_analy_r"
+output: html_document
+---
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r}
+data(diamonds)
+summary(diamonds)
+diamonds$carat
+diamonds$color
+?diamonds
+names(diamonds)
+hist(diamonds$price)
+mean(diamonds$price)
+median(diamonds$price)
+length(diamonds$price[diamonds$price < 500])
+length(diamonds$price[diamonds$price < 250])
+length(diamonds$price[diamonds$price >= 15000])
+
+qplot(x = price, data = diamonds, binwidth=2000)
+#ggsave('price.png')
+
+qplot(x = price, data = diamonds) +
+  facet_grid(cut ~ .)
+
+by(diamonds$price, diamonds$cut, max)
+by(diamonds$price, diamonds$cut, min)
+by(diamonds$price, diamonds$cut, median)
+
+qplot(x = price, data = diamonds) + facet_wrap(~cut)
+
+?facet_wrap
+
+qplot(x = price, data = diamonds) + facet_wrap(~cut, scales='free')
+
+qplot(x = price/carat, data = diamonds, binwidth=20) + facet_wrap(~cut, scales='free')
+
+qplot(x = as.integer(diamonds$cut), y = price, data = diamonds, geom = 'boxplot')
+
+summary(subset(diamonds, color == 'D')$price)
+summary(subset(diamonds, color == 'J')$price)
+
+IQR(subset(diamonds, color == 'D')$price)
+IQR(subset(diamonds, color == 'J')$price)
+
+qplot(x = diamonds$color, y = price/carat, data = diamonds, geom = 'boxplot')
+
+
+qplot(x = carat, data = diamonds, geom = 'freqpoly', 
+      binwidth = 0.2) +
+  scale_x_continuous(lim = c(0, 6), breaks = seq(0, 6, 0.2)) +
+  scale_y_continuous(lim = c(0, 12000), breaks = seq(0, 12000, 1000))
+
+qplot(x = carat, data = diamonds, geom = 'freqpoly', 
+      binwidth = 0.1) +
+  scale_x_continuous(lim = c(0, 6), breaks = seq(0, 6, 0.1)) +
+  scale_y_continuous(lim = c(0, 12000), breaks = seq(0, 12000, 1000))
+
+qplot(x = carat, data = diamonds, geom = 'freqpoly', 
+      binwidth = 0.01) +
+  scale_x_continuous(lim = c(0, 6), breaks = seq(0, 6, 0.01)) +
+  scale_y_continuous(lim = c(0, 12000), breaks = seq(0, 12000, 1000))
+
+qplot(carat, data = diamonds, geom = "freqpoly", binwidth = 0.01)
+
+```
+
+```{r}
+setwd('~/r/nanodegree/explor_data_analys/')
+
+list.files()
+
+patents <- read.csv('patents.csv', header = T, row.names = 1, check.names = F)
+```
+
+You can also embed plots, for example:
+
+```{r, echo=FALSE}
+plot(cars)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.

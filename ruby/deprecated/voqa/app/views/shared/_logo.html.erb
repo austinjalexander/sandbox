@@ -1,0 +1,5 @@
+<% welcome_style = params[:controller] == 'welcome' ? "height:200px" : "" %>
+
+<div id="logo-container" class="navbar navbar-default navbar-fixed-top<%= non_welcome_col_settings %>">
+  <%= link_to image_tag("voqa.svg", id: "voqa-logo", alt: "VOQA logo", class: "image-responsive center-block col-xs-12", style: "#{welcome_style}"), root_path %>
+</div>

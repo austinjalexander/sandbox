@@ -1,0 +1,203 @@
+// SELECT processing sequence:
+FROM    (necessary)
+WHERE   -> selection
+GROUP BY
+HAVING
+SELECT  (necessary) -> selection, projection, join
+ORDER BY
+
+
+list full details of all records in table:
+SELECT staffNo,fName,lName,position,sex,DOB,salary,branchNO
+FROM Staff;
+
+equivalent:
+SELECT *
+FROM Staff;
+
+retrieve specific columns, all rows:
+SELECT staffNo,fName,lName,salary
+FROM Staff;
+
+list all properties that have been viewed:
+SELECT DISTINCT propertyNo
+FROM Viewing;
+
+calculated/computed/derived field (gives generic column label for calculated):
+SELECT staffNo,fName,lName,salary/12
+FROM Staff;
+
+calculated/computed/derived field (gives specific column label for calculated):
+SELECT staffNo,fName,lName,salary/12 AS monthlySalary
+FROM Staff;
+
+// Row Selection with WHERE
+comparison, range, set membership, pattern match, null
+comparson operators: = <> < > != (in some dialects) <= >=
+logical operators: AND OR NOT (precedence: NOT AND OR)
+
+comparison search condition:
+SELECT staffNo,fName,lName,position,salary
+FROM Staff
+WHERE salary > 10000;
+
+compound comparison search condition:
+SELECT * 
+FROM Branch
+WHERE city = 'London' OR city = 'Glasgow';
+
+range search condition (inclusive):
+SELECT staffNO,fName,lName,position,salary
+FROM Staff
+WHERE salary BETWEEN 20000 AND 30000;
+// there is also NOT BETWEEN
+// can just use: WHERE salary >= 20000 AND salary <= 30000
+
+set membership search condition:
+SELECT staffNo,fName,lName,position
+FROM Staff
+WHERE position IN ('Manager','Supervisor');
+// ther eis also NOT IN
+// can just use: WHERE position = 'Manager' OR position = 'Supervisor';
+// IN is more efficient if the set contains many values
+
+pattern match search condition 
+
+
+/*
+	Generic SQL Required Data Example:
+	position VARCHAR(10) NOT NULL
+ */
+
+/*
+	Generic SQL Domain Constraint Examples:
+	sex CHAR NOT NULL CHECK (sex IN('M','F'))
+
+	more explicitly:
+	CREATE DOMAIN SexType AS CHAR
+		DEFAULT 'M'
+		CHECK (VALUE IN ('M','F'));
+
+	and, thus:
+	sex SexType NOT NULL
+
+	search condition can be a table lookup:
+	CREATE DOMAIN BranchNumber as CHAR(4)
+		CHECK (VALUE IN (SELECT branchNo FROM Branch));
+
+	remove domains:
+	DROP DOMAIN DomainName RESTRICT [or] CASCADE 
+	// the first will fail if domain is in use
+ */
+
+/*
+	Generic SQL Entity Integrity Example:
+	// SQL rejects INSERT/UPDATE for candidate keys using these methods:
+	PRIMARY KEY(propertyNo) // composite key: PRIMARY KEY(clientNo,propertyNo)
+	specify uniqueness for alternate keys:
+	UNIQUE(clientNo,propertyNo)
+ */
+
+/*
+	Generic SQL Referential Integrity Example:
+	// SQL rejects INSERT/UPDATE that attempts to create a foreign key
+	// in child table without matching candidate key in parent tabe
+	FOREIGN KEY(branchNo) REFERENCES Branch // default assumes primary key for parent
+	// ON UPDATE and ON DELETE subclauses:
+	FOREIGN KEY (staffNo) REFERENCES Staff ON DELETE SET NULL
+	FOREIGN KEY (ownerNo) REFERENCES PrivateOwner ON UPDATE CASCADE
+	// otheres are SET DEFAULT and NO ACTION
+ */
+
+/*
+ 	Generic SQL General Constraint Example:
+	CREATE ASSERTION StaffNotHandlingTooMuch
+		CHECK (NOT EXISTS(SELECT staffNo
+											FROM PropertyForRent
+											GROUP BY staffNo
+											HAVING COUNT(*) > 100))
+ */
+
+ /*
+	Generic SQL Data (DB and Table) Definition Examples:
+	// CREATE SCHEMA/DOMAIN/TABLE/VIEW
+	// ALTER DOMAIN/TABLE
+	// DROP SCHEMA/DOMAIN/TABLE/VIEW
+	// non-SQL standard: CREATE/DROP INDEX
+	// ISO standard doesn't specify how DBs are crated
+	// DB objects exist in an environment, which consists of
+	// one or more catalogs, each of which consists of a set of schemas,
+	// which are named collections of DB objects that are related;
+	// schema objects: tables, views, domains, assertions, collations,
+	// translations, character sets
+	CREATE SCHEMA SqlTests AUTHORIZATION Smith;
+	DROP SCHEMA Name RESTRICT or CASCADE // RESTRICT is default
+
+	CREATE DOMAIN OwnerNumber AS VARCHAR(5)
+		CHECK (VALUE IN (SELECT ownerNO FROM PrivateOwner));
+	CREATE DOMAIN StaffNumber AS VARCHAR(5)
+		CHECK (VALUE IN (SELECT staffNo FROM Staff));
+	CREATE DOMAIN BranchNumber AS CHAR(4)
+		CHECK (VALUE IN (SELECT branchNo FROM Branch));
+	CREATE DOMAIN PropertyNumber AS VARCHAR(5);
+	CREATE DOMAIN Street AS VARCHAR(25);
+	CREATE DOMAIN City AS VARCHAR(15);
+	CREATE DOMAIN PostCode AS VARCHAR(8);
+	CREATE DOMAIN PropertyType AS CHAR(1)
+		CHECK (VALUE IN ('B','C','D','E','F','M','S'));
+	CREATE DOMAIN PropertyRooms AS SMALLINT
+		CHECK (VALUE BETWEEN 1 AND 15);
+	CREATE DOMAIN PropertyRent AS DECIMAL(6,2)
+		CHECK (VALUE BETWEEN 0 AND 9999.99);
+
+	CREATE TABLE PropertyForRent(
+		propertyNo 		PropertyNumber 		NOT NULL,
+		street        Street     				NOT NULL,
+		city   				City 							NOT NULL,
+		postcode   		PostCode 					        ,
+		type   				PropertyType 			NOT NULL DEFAULT 'F,
+		rooms   			PropertyRooms 		NOT NULL DEFAULT 4,
+		rent   				PropertyRent 			NOT NULL DEFAULT 600,
+		ownerNo   		OwnerNumber 			NOT NULL,
+		staffNo   		StaffNumber
+									CONSTRAINT StaffNotHandlingTooMuch,
+										CHECK (NOT EXISTS (SELECT staffNo
+																			 FROM PropertyForRent
+																			 GROUP BY staffNo
+																			 HAVING COUNT(*) > 100)),
+		branchNo   		BranchNumber 			NOT NULL,
+		PRIMARY KEY (propertyNo),
+		FOREIGN KEY (staffNo) REFERENCES Staff ON DELETE SET NULL
+														ON UPDATE CASCADE,
+		FOREIGN KEY (ownerNo) REFERENCES PrivateOwner ON DELETE NO ACTION
+														ON UPDATE CASCADE,
+		FOREIGN KEY (branchNo) REFERENCES Branch ON DELETE SET NO ACTION
+														ON UPDATE CASCADE	
+	);
+
+
+	
+
+	
+ */
+
+/*
+	Generic SQL Data (Column) Definition Examples:
+	branchNo CHAR(4)
+	address VARCHAR(30)
+	bitString BIT(4)
+	salary DECIMAL(7,2)  // for exact representation (abbreviate DEC); 
+											 // NUMERIC also; (precision,scale) 
+										   // default scale is 0, so it can be omitted
+	rooms INTEGER // (abbreviate INT); SMALLINT also
+	// approximate numeric data: FLOAT(precision), REAL, DOUBLE PRECISION
+	viewDate DATE // TIME(timePrecision) and TIMESTAMP(timePrecision) also
+	INTERVAL YEAR(2) TO MONTH  // represents periods of time
+												     // also INTERVAL HOUR TO SECOND(4)
+												     // and others; two classes: year-month and day-time
+	(many scalar values: CURRENT_TIMESTAMP is one of them)
+ */
+
+
+
+

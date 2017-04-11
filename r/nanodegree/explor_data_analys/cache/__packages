@@ -1,0 +1,9 @@
+base
+ggplot2
+reshape2
+GGally
+gridExtra
+dplyr
+lattice
+MASS
+memisc

@@ -1,0 +1,95 @@
+// Place all the styles related to the Questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+// FOR BOOTSTRAP
+@import 'bootstrap-sprockets';
+@import 'bootstrap';
+
+$lime: #b0eb00;
+$bright-red: #b30015;
+$light-gray: #a6a6a6;
+
+#questions {
+  margin-top: 2%;
+  height: 100%;
+  position: absolute;
+  right: 0;
+
+  #questions_div {
+    margin-top: 5%;
+    //width: 60%;
+    //margin-right: auto;
+    //margin-left: auto;
+  }
+}
+
+#answer_button {
+  margin: 10px;
+}
+
+.vote_div, .up_vote_form, .down_vote_form {
+  padding: 0;
+  margin: 0;
+  height: 15px;
+  width: 15px;
+}
+
+.vote_button {
+    background-color: transparent;
+    border: none;
+    outline:none;
+    padding: 0;
+    margin: 0;
+}
+
+.up_vote {
+  padding: 0;
+  margin: 0;
+  polygon:hover {
+    fill: $lime;
+    stroke: black;
+    stroke-width: 1;
+  }
+}
+
+.up_vote_active {
+  padding: 0;
+  margin: 0;
+  polygon {
+    fill: $lime;
+    stroke: black;
+    stroke-width: 1;
+  }
+}
+
+.down_vote {
+  padding: 0;
+  margin: 0;
+  polygon:hover {
+    fill: $bright-red;
+    stroke: black;
+    stroke-width: 1;
+  }
+}
+
+.down_vote_active {
+  padding: 0;
+  margin: 0;
+  polygon {
+    fill: $bright-red;
+    stroke: black;
+    stroke-width: 1;
+  }
+}
+
+.up_vote_disabled, .down_vote_disabled {
+  padding: 0;
+  margin: 0;
+  polygon {
+    fill: $light-gray;
+    stroke: $light-gray;
+    stroke-width: 1;
+  }
+}
+

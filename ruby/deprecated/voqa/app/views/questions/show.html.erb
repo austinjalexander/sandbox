@@ -1,0 +1,32 @@
+<div id="questions" class="col-xs-8 col-sm-9">
+
+  <div id="questions_div" class="jumbotron">
+
+    <h3><%= @question.title %></h3>
+
+    <p><%= @question.content %></p>
+
+    <div>
+      <small>
+        Asked <%= time_ago_in_words(@question.created_at) %> ago
+      </small>
+
+      <small>
+        <figure>
+          <%= image_tag(gravatar_for(@question.user.email) + "?s=50", class: "img-circle small_circle", options: { alt: "#{@question.user.email} Gravatar" }) %>
+          <figcaption><strong><%= @question.user.username %></strong></figcaption>
+        </figure>
+      </small>
+    </div>
+
+    <% if @question.user_id == current_user.id %>
+      <%= link_to 'Edit', edit_question_path(@question) %> |
+    <% end %>
+    <%= link_to 'Back', questions_path %>
+  </div>
+
+  <div id="answers" class="col-xs-12">
+    <%= render 'shared/answers' %>
+  </div>
+</div>
+
