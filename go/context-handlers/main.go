@@ -2,6 +2,8 @@
 // https://www.alexedwards.net/blog/making-and-using-middleware
 // https://blog.cloudflare.com/the-complete-guide-to-golang-net-http-timeouts/
 // https://www.sohamkamani.com/blog/golang/2018-06-17-golang-using-context-cancellation/
+
+// https://github.com/jordan-wright/http-boilerplate/blob/master/server/server.go
 package main
 
 import (
